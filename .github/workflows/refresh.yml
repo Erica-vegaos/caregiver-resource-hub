@@ -1,0 +1,25 @@
+name: Refresh and review activity data
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python src/build.py --refresh
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/upload-artifact@v4
+        with:
+          name: youban-refreshed-data-and-preview
+          path: |
+            data/events.json
+            data/changes.json
+            data/run_summary.json
+            data/review.md
+            dist/index.html
+

@@ -1,0 +1,291 @@
+{
+  "version": "1.0.0",
+  "checked_at": "2026-11-14T01:41:07+08:00",
+  "coverage_note": "全台搜尋能力與來源名錄，不代表全台活動完整收錄；缺少地方直接來源的縣市連到全國官方名錄並明示缺口。",
+  "sources": [
+    {
+      "id": "NREG01",
+      "name": "台北市康復之友協會",
+      "city": "台北市",
+      "url": "https://www.tpmra.org.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；已有人工核對活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG02",
+      "name": "新北市康復之友協會",
+      "city": "新北市",
+      "url": "https://www.ntcami.org.tw/events",
+      "status": "manual",
+      "note": "已核對活動列表；家屬與康復者活動需逐筆區分。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.ntcami.org.tw/events"
+    },
+    {
+      "id": "NREG03",
+      "name": "桃園市康復之友協會",
+      "city": "桃園市",
+      "url": "https://www.typr.org.tw/ap/index.aspx",
+      "status": "discovery",
+      "note": "已開啟官網；公告列表本輪逾時，近期家屬場次尚待核對。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.typr.org.tw/ap/index.aspx"
+    },
+    {
+      "id": "NREG04",
+      "name": "新竹市精神健康協會",
+      "city": "新竹市",
+      "url": "https://www.healthymind.org.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG05",
+      "name": "苗栗縣康復之友協會",
+      "city": "苗栗縣",
+      "url": "https://www.mlmra.org.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG06",
+      "name": "台中市康復之友協會",
+      "city": "台中市",
+      "url": "https://www.mratc.org.tw/",
+      "status": "manual",
+      "note": "已核對活動詳頁；已有報名截止課程，不代表仍可加入。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.mratc.org.tw/"
+    },
+    {
+      "id": "NREG07",
+      "name": "臺中市心樂活關懷協會",
+      "city": "台中市",
+      "url": "https://www.newhappyheart.com.tw/tw/news-detail/85?range=asc",
+      "status": "manual",
+      "note": "已核對115年家連家課程，但4–5月已結束；保留來源供後續追蹤。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.newhappyheart.com.tw/tw/news-detail/85?range=asc"
+    },
+    {
+      "id": "NREG08",
+      "name": "南投縣康復之友協會",
+      "city": "南投縣",
+      "url": "https://jnanry.org/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG09",
+      "name": "嘉義市心康復之友協會",
+      "city": "嘉義市",
+      "url": "https://cycmra.com/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG10",
+      "name": "奇美醫院思覺失調症家屬支持團體",
+      "city": "台南市",
+      "url": "https://www.chimei.org.tw/ePhotoAlbum/files/4294784C9E42A9F352401B3D9E2F6C15.pdf",
+      "status": "manual",
+      "note": "已核對115年度說明；下半年日期在外部報名表，本輪無法讀取，未作可參加活動刊登。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.chimei.org.tw/ePhotoAlbum/files/4294784C9E42A9F352401B3D9E2F6C15.pdf"
+    },
+    {
+      "id": "NREG11",
+      "name": "高雄市築夢關懷協會",
+      "city": "高雄市",
+      "url": "https://www.ksdreammaking.org/",
+      "status": "discovery",
+      "note": "官網有115年家屬支持團體；本輪已找到者在10月前結束，未作近期活動刊登。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.ksdreammaking.org/"
+    },
+    {
+      "id": "NREG12",
+      "name": "高雄市政府衛生局家屬支持團體公告",
+      "city": "高雄市",
+      "url": "https://health.kcg.gov.tw/News_Content.aspx?n=1AEC126FD91C6714&s=724DB569F8F6A6B6&sms=DE9DF785CC10DDB0",
+      "status": "manual",
+      "note": "已核對酒癮家屬團體，但7–9月已結束；來源追蹤用。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://health.kcg.gov.tw/News_Content.aspx?n=1AEC126FD91C6714&s=724DB569F8F6A6B6&sms=DE9DF785CC10DDB0"
+    },
+    {
+      "id": "NREG13",
+      "name": "宜蘭縣康復之友協會",
+      "city": "宜蘭縣",
+      "url": "https://www.kf2349.artcom.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG14",
+      "name": "金門縣康復之友協會",
+      "city": "金門縣",
+      "url": "https://www.kmmra.artcom.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG-基隆市",
+      "name": "基隆市｜全國心衛中心名錄入口",
+      "city": "基隆市",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立基隆市直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-新竹縣",
+      "name": "新竹縣｜全國心衛中心名錄入口",
+      "city": "新竹縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立新竹縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-彰化縣",
+      "name": "彰化縣｜全國心衛中心名錄入口",
+      "city": "彰化縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立彰化縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-雲林縣",
+      "name": "雲林縣｜全國心衛中心名錄入口",
+      "city": "雲林縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立雲林縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-嘉義縣",
+      "name": "嘉義縣｜全國心衛中心名錄入口",
+      "city": "嘉義縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立嘉義縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-屏東縣",
+      "name": "屏東縣｜全國心衛中心名錄入口",
+      "city": "屏東縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立屏東縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-花蓮縣",
+      "name": "花蓮縣｜全國心衛中心名錄入口",
+      "city": "花蓮縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立花蓮縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-台東縣",
+      "name": "台東縣｜全國心衛中心名錄入口",
+      "city": "台東縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立台東縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-澎湖縣",
+      "name": "澎湖縣｜全國心衛中心名錄入口",
+      "city": "澎湖縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立澎湖縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-連江縣",
+      "name": "連江縣｜全國心衛中心名錄入口",
+      "city": "連江縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立連江縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-NATIONAL",
+      "name": "康復之友聯盟友會資源名錄",
+      "city": "全台",
+      "url": "https://www.tamiroc.org.tw/about/8",
+      "status": "directory",
+      "note": "跨縣市來源發現入口；團體服務名錄並非即時活動清單。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content"
+    },
+    {
+      "id": "NREG-ONLINE",
+      "name": "線上場次來源待補",
+      "city": "線上",
+      "url": "https://www.tamiroc.org.tw/about/8",
+      "status": "directory",
+      "note": "本輪未找到可核對日期、資格與線上參與方式的近期精神疾病家屬場次；先提供全國團體名錄，不表示有線上課程可報名。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "gap"
+    }
+  ]
+}

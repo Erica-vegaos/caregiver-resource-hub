@@ -1,0 +1,240 @@
+{
+  "version": "1.0.0",
+  "checked_at": "2026-11-14T01:41:07+08:00",
+  "events": [
+    {
+      "id": "N01:sport53:2026-11-17",
+      "source_id": "N01",
+      "source_event_id": "sport53",
+      "title": "運動紓壓課程・系列場次",
+      "organizer": "台中市康復之友協會",
+      "source_url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+      "start": "2026-11-17T10:00:00+08:00",
+      "end": "2026-11-17T12:00:00+08:00",
+      "city": "台中市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "event_status": "scheduled",
+      "publication_status": "pending",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "last_content_checked_at": "2026-11-14T01:41:07+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": null,
+      "freshness": "fresh",
+      "review_reasons": [],
+      "date_precision": "time",
+      "series_id": "N01:sport53",
+      "category": "紓壓活動",
+      "venue": "台中市北區華信街8號1樓",
+      "eligibility": "內文明載持有精神障礙證明者及家屬；頁首亦列社區民眾，適用資格請向承辦確認。",
+      "summary": "精神康復者與家屬可參加的系列運動課；原公告報名已截止。",
+      "fee_amount": 200,
+      "fee_text": "系列課程200元，單場費用待確認",
+      "registration_status": "closed",
+      "registration_deadline": null,
+      "registration_text": "官方頁面標示報名至2026/10/02且已結束。請勿直接前往；如需候補或中途加入請先洽承辦。",
+      "registration_url": "https://forms.gle/KFWF2bhyDFUfLLYRA",
+      "contact": "04-2208-3901 / 04-2471-5298",
+      "tags": [
+        "家屬",
+        "運動",
+        "紓壓",
+        "系列課程"
+      ],
+      "notes": [
+        "這是已開課的系列課程場次，不代表現在仍接受報名。",
+        "費用為原公告系列課程標價，未確認單場費用。"
+      ],
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "11/17、11/24",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "time",
+          "quote": "上午10:00－12:00",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "eligibility",
+          "quote": "持有精神障礙證明者及家屬",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "registration",
+          "quote": "報名已結束",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        }
+      ]
+    },
+    {
+      "id": "N01:sport53:2026-11-24",
+      "source_id": "N01",
+      "source_event_id": "sport53",
+      "title": "運動紓壓課程・系列場次",
+      "organizer": "台中市康復之友協會",
+      "source_url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+      "start": "2026-11-24T10:00:00+08:00",
+      "end": "2026-11-24T12:00:00+08:00",
+      "city": "台中市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "event_status": "scheduled",
+      "publication_status": "pending",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "last_content_checked_at": "2026-11-14T01:41:07+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": null,
+      "freshness": "fresh",
+      "review_reasons": [],
+      "date_precision": "time",
+      "series_id": "N01:sport53",
+      "category": "紓壓活動",
+      "venue": "台中市北區華信街8號1樓",
+      "eligibility": "內文明載持有精神障礙證明者及家屬；頁首亦列社區民眾，適用資格請向承辦確認。",
+      "summary": "精神康復者與家屬可參加的系列運動課；原公告報名已截止。",
+      "fee_amount": 200,
+      "fee_text": "系列課程200元，單場費用待確認",
+      "registration_status": "closed",
+      "registration_deadline": null,
+      "registration_text": "官方頁面標示報名至2026/10/02且已結束。請勿直接前往；如需候補或中途加入請先洽承辦。",
+      "registration_url": "https://forms.gle/KFWF2bhyDFUfLLYRA",
+      "contact": "04-2208-3901 / 04-2471-5298",
+      "tags": [
+        "家屬",
+        "運動",
+        "紓壓",
+        "系列課程"
+      ],
+      "notes": [
+        "這是已開課的系列課程場次，不代表現在仍接受報名。",
+        "費用為原公告系列課程標價，未確認單場費用。"
+      ],
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "11/17、11/24",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "time",
+          "quote": "上午10:00－12:00",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "eligibility",
+          "quote": "持有精神障礙證明者及家屬",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "registration",
+          "quote": "報名已結束",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        }
+      ]
+    },
+    {
+      "id": "N01:carnival329:2026-11-22",
+      "source_id": "N01",
+      "source_event_id": "carnival329",
+      "title": "心光燦爛嘉年華・精神康復共融活動",
+      "organizer": "台中市康復之友協會",
+      "source_url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
+      "start": "2026-11-22T09:00:00+08:00",
+      "end": "2026-11-22T14:00:00+08:00",
+      "city": "台中市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "event_status": "scheduled",
+      "publication_status": "pending",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "last_content_checked_at": "2026-11-14T01:41:07+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": null,
+      "freshness": "fresh",
+      "review_reasons": [],
+      "date_precision": "time",
+      "category": "紓壓活動",
+      "venue": "文心森林公園惠文路與向上路交叉路口｜台中市南屯區文心路一段289號",
+      "eligibility": "公告邀請家人、朋友與社區民眾參與；非家屬專屬團體。",
+      "summary": "精神康復者演出與園遊會，可與家人同行的社區共融活動。",
+      "fee_amount": null,
+      "fee_text": "公告未註明入場或攤位費用；請向主辦確認。",
+      "registration_status": "unknown",
+      "registration_deadline": null,
+      "registration_text": "公告未列報名程序或剩餘名額；參加方式請查看原單位。",
+      "contact": "請見原單位聯絡資訊",
+      "tags": [
+        "家屬",
+        "共融",
+        "休閒",
+        "精神康復"
+      ],
+      "notes": [
+        "社區共融活動，非疾病教育課程或家屬支持團體。",
+        "演出09:00–11:00；園遊會10:00–14:00。"
+      ],
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年11月22日（日）",
+          "url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "time",
+          "quote": "09:00－14:00",
+          "url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "eligibility",
+          "quote": "帶著家人、朋友一起來同樂",
+          "url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "N01",
+      "name": "台中市康復之友協會",
+      "method": "人工核對官方活動正文",
+      "status": "manual",
+      "attempted_at": "2026-11-14T01:41:07+08:00",
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "本輪新增台中活動，未宣稱已完整收錄全台。",
+    "兩場運動課原報名已截止；不得顯示為可立即報名。",
+    "本輪尚無足以核對的近期線上專門家屬場次。"
+  ]
+}

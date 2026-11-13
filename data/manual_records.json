@@ -1,0 +1,171 @@
+{
+  "events": [
+    {
+      "id": "S04:502:2026-12-09",
+      "source_id": "S04",
+      "source_event_id": "502",
+      "title": "精神障礙家庭照顧者支持團體",
+      "organizer": "台北市康復之友協會",
+      "source_url": "https://www.tpmra.org.tw/node/502",
+      "start": "2026-12-09T18:30:00+08:00",
+      "end": "2026-12-09T20:30:00+08:00",
+      "city": "台北市",
+      "mode": "實體",
+      "category": "支持團體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "venue": "南港工坊｜臺北市南港區八德路四段768之1號1樓",
+      "eligibility": "精神康復者之照顧者",
+      "summary": "與有相似照顧經驗的人交流，在社工陪伴下整理日常壓力。",
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "registration_deadline": null,
+      "registration_text": "原文提供電話與網路報名；目前名額及本場次受理狀態未確認。",
+      "contact": "02-2747-6041",
+      "event_status": "scheduled",
+      "publication_status": "pending",
+      "checked_at": "2026-11-12T20:21:47+08:00",
+      "last_content_checked_at": "2026-11-12T20:21:47+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": "2026-01-12",
+      "freshness": "fresh",
+      "notes": [
+        "此筆依官方公開頁面核對整理，報名前請與單位確認。",
+        "費用與名額請先向原單位確認。"
+      ],
+      "evidence": [
+        {
+          "field": "time",
+          "quote": "週三晚上18：30-20:30",
+          "url": "https://www.tpmra.org.tw/node/502",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "官方活動正文；人工對照"
+        },
+        {
+          "field": "date",
+          "quote": "115年；團體日期：12/9",
+          "url": "https://www.tpmra.org.tw/node/502",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "標題年度及活動日期片段；人工對照"
+        },
+        {
+          "field": "eligibility",
+          "quote": "精神康復者之照顧者",
+          "url": "https://www.tpmra.org.tw/node/502",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "對象欄位；人工對照"
+        },
+        {
+          "field": "venue",
+          "quote": "臺北市南港區八德路四段768之1號1樓",
+          "url": "https://www.tpmra.org.tw/node/502",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "地點欄位；人工對照"
+        }
+      ],
+      "review_reasons": []
+    },
+    {
+      "id": "S03:161:2026-12-12",
+      "source_id": "S03",
+      "source_event_id": "161",
+      "title": "家屬交流聚會・重要關係人",
+      "organizer": "新北市康復之友協會",
+      "source_url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+      "start": "2026-12-12T14:00:00+08:00",
+      "end": "2026-12-12T16:00:00+08:00",
+      "city": "新北市",
+      "mode": "實體",
+      "category": "支持團體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "venue": "國立臺灣圖書館3052教室｜新北市中和區中安街85號3樓",
+      "eligibility": "精障家庭的家屬／照顧者／陪伴者",
+      "summary": "由家屬分享陪伴經驗，交流照顧中的關係與感受。",
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "registration_deadline": "2026-12-11T12:00:00+08:00",
+      "registration_text": "原文提供電話與網路報名；目前名額及本場次受理狀態未確認。",
+      "contact": "02-2257-8822",
+      "event_status": "scheduled",
+      "publication_status": "pending",
+      "checked_at": "2026-11-12T20:21:47+08:00",
+      "last_content_checked_at": "2026-11-12T20:21:47+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": null,
+      "freshness": "fresh",
+      "notes": [
+        "此筆依官方公開頁面核對整理，報名前請與單位確認。",
+        "費用與名額請先向原單位確認。"
+      ],
+      "evidence": [
+        {
+          "field": "time",
+          "quote": "2026-12-12 14:00 至 16:00",
+          "url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "官方活動正文；人工對照"
+        },
+        {
+          "field": "date",
+          "quote": "活動日期2026-12-12 ~ 2026-12-12",
+          "url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "標題年度及活動日期片段；人工對照"
+        },
+        {
+          "field": "eligibility",
+          "quote": "精障家庭的家屬／照顧者/陪伴者",
+          "url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "對象欄位；人工對照"
+        },
+        {
+          "field": "venue",
+          "quote": "國立臺灣圖書館3052教室",
+          "url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "地點欄位；人工對照"
+        }
+      ],
+      "review_reasons": []
+    }
+  ],
+  "resources": [
+    {
+      "id": "heartlife-contact",
+      "name": "心家庭專線",
+      "organizer": "台北市心生活協會",
+      "description": "精神病友與家屬的電話支持、預約會談及資源討論。可先說明需要，請單位協助確認合適服務。",
+      "phone": "02-2739-8516",
+      "hours": "週一至週五，上班日 09:00–12:00、13:30–16:30",
+      "eligibility": "戶籍、居住、就業或就學在臺北市的精神病友或其家屬／照顧者。",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "checked_at": "2026-11-12T20:21:47+08:00",
+      "fee": "原文未註明；請向單位確認",
+      "note": "一般支持服務，非全天候或緊急服務。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S03",
+      "name": "新北市康復之友協會",
+      "method": "人工對照官方頁面",
+      "status": "manual",
+      "attempted_at": "2026-11-12T20:21:47+08:00",
+      "errors": []
+    },
+    {
+      "id": "S04",
+      "name": "台北市康復之友協會",
+      "method": "人工對照官方頁面",
+      "status": "manual",
+      "attempted_at": "2026-11-12T20:21:47+08:00",
+      "errors": []
+    }
+  ]
+}

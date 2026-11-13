@@ -1,0 +1,1637 @@
+{
+  "version": "1.0.0",
+  "built_at": "2026-11-14T01:43:06+08:00",
+  "data_checked_at": "2026-11-14T01:41:07+08:00",
+  "events": [
+    {
+      "id": "S05:308:2026-04-07",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "ended",
+      "publication_status": "archived",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；4月7日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-04-07T18:30:00+08:00",
+      "end": "2026-04-07T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S05:308:2026-05-05",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "ended",
+      "publication_status": "archived",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；5月5日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-05-05T18:30:00+08:00",
+      "end": "2026-05-05T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S05:308:2026-06-02",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "ended",
+      "publication_status": "archived",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；6月2日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-06-02T18:30:00+08:00",
+      "end": "2026-06-02T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S05:308:2026-07-07",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "ended",
+      "publication_status": "archived",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；7月7日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-07-07T18:30:00+08:00",
+      "end": "2026-07-07T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S05:308:2026-08-04",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "ended",
+      "publication_status": "archived",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；8月4日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-08-04T18:30:00+08:00",
+      "end": "2026-08-04T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S05:308:2026-09-01",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "ended",
+      "publication_status": "archived",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；9月1日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-09-01T18:30:00+08:00",
+      "end": "2026-09-01T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S05:308:2026-10-06",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "ended",
+      "publication_status": "archived",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；10月6日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-10-06T18:30:00+08:00",
+      "end": "2026-10-06T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S05:308:2026-11-03",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "ended",
+      "publication_status": "archived",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；11月3日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-11-03T18:30:00+08:00",
+      "end": "2026-11-03T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S01:54D200EE367BA9FB",
+      "source_id": "S01",
+      "source_event_id": "54D200EE367BA9FB",
+      "title": "陪伴彼此，走過照顧日常",
+      "organizer": "臺北市社區心理衛生中心",
+      "source_url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4321b337287ad7f3e9c2412305aacec656c1ec82446218eb697c226d4013fa76",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "scheduled",
+      "publication_status": "listed_with_caveats",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "time",
+          "quote": "115年11月15日（日）13:30-16:30",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4321b337287ad7f3e9c2412305aacec656c1ec82446218eb697c226d4013fa76",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "臺北市中正區心理衛生中心二樓團體室（臺北市中正區金山南路一段5號）",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4321b337287ad7f3e9c2412305aacec656c1ec82446218eb697c226d4013fa76",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "居住臺北市的 精障者家屬/照顧者 優先。",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4321b337287ad7f3e9c2412305aacec656c1ec82446218eb697c226d4013fa76",
+          "locator": "正文"
+        },
+        {
+          "field": "registration",
+          "quote": "即日起至額滿為止，錄取 8 人",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4321b337287ad7f3e9c2412305aacec656c1ec82446218eb697c226d4013fa76",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "臺北市居住家屬優先，優先資格不等於其他地區一定不能參加。",
+        "名額及費用請向原單位確認。",
+        "原文寫至額滿為止，本入口沒有剩餘名額資料。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "start": "2026-11-15T13:30:00+08:00",
+      "end": "2026-11-15T16:30:00+08:00",
+      "category": "講座與交流",
+      "venue": "臺北市中正區心理衛生中心二樓團體室（臺北市中正區金山南路一段5號）",
+      "eligibility": "居住臺北市的 精障者家屬/照顧者 優先。",
+      "registration_text": "即日起至額滿為止，錄取 8 人",
+      "contact": "請見原單位公告",
+      "summary": "與有相似照顧經驗的家屬交流，認識支持資源，也為自己留一段被理解的時間。"
+    },
+    {
+      "id": "N01:sport53:2026-11-17",
+      "source_id": "N01",
+      "source_event_id": "sport53",
+      "title": "運動紓壓課程・系列場次",
+      "organizer": "台中市康復之友協會",
+      "source_url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+      "start": "2026-11-17T10:00:00+08:00",
+      "end": "2026-11-17T12:00:00+08:00",
+      "city": "台中市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "event_status": "scheduled",
+      "publication_status": "listed_with_caveats",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "last_content_checked_at": "2026-11-14T01:41:07+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": null,
+      "freshness": "fresh",
+      "review_reasons": [],
+      "date_precision": "time",
+      "series_id": "N01:sport53",
+      "category": "紓壓活動",
+      "venue": "台中市北區華信街8號1樓",
+      "eligibility": "內文明載持有精神障礙證明者及家屬；頁首亦列社區民眾，適用資格請向承辦確認。",
+      "summary": "精神康復者與家屬可參加的系列運動課；原公告報名已截止。",
+      "fee_amount": 200,
+      "fee_text": "系列課程200元，單場費用待確認",
+      "registration_status": "closed",
+      "registration_deadline": null,
+      "registration_text": "官方頁面標示報名至2026/10/02且已結束。請勿直接前往；如需候補或中途加入請先洽承辦。",
+      "registration_url": "https://forms.gle/KFWF2bhyDFUfLLYRA",
+      "contact": "04-2208-3901 / 04-2471-5298",
+      "tags": [
+        "家屬",
+        "運動",
+        "紓壓",
+        "系列課程"
+      ],
+      "notes": [
+        "這是已開課的系列課程場次，不代表現在仍接受報名。",
+        "費用為原公告系列課程標價，未確認單場費用。"
+      ],
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "11/17、11/24",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "time",
+          "quote": "上午10:00－12:00",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "eligibility",
+          "quote": "持有精神障礙證明者及家屬",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "registration",
+          "quote": "報名已結束",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        }
+      ]
+    },
+    {
+      "id": "N01:carnival329:2026-11-22",
+      "source_id": "N01",
+      "source_event_id": "carnival329",
+      "title": "心光燦爛嘉年華・精神康復共融活動",
+      "organizer": "台中市康復之友協會",
+      "source_url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
+      "start": "2026-11-22T09:00:00+08:00",
+      "end": "2026-11-22T14:00:00+08:00",
+      "city": "台中市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "event_status": "scheduled",
+      "publication_status": "listed_with_caveats",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "last_content_checked_at": "2026-11-14T01:41:07+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": null,
+      "freshness": "fresh",
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "date_precision": "time",
+      "category": "紓壓活動",
+      "venue": "文心森林公園惠文路與向上路交叉路口｜台中市南屯區文心路一段289號",
+      "eligibility": "公告邀請家人、朋友與社區民眾參與；非家屬專屬團體。",
+      "summary": "精神康復者演出與園遊會，可與家人同行的社區共融活動。",
+      "fee_amount": null,
+      "fee_text": "公告未註明入場或攤位費用；請向主辦確認。",
+      "registration_status": "unknown",
+      "registration_deadline": null,
+      "registration_text": "公告未列報名程序或剩餘名額；參加方式請查看原單位。",
+      "contact": "請見原單位聯絡資訊",
+      "tags": [
+        "家屬",
+        "共融",
+        "休閒",
+        "精神康復"
+      ],
+      "notes": [
+        "社區共融活動，非疾病教育課程或家屬支持團體。",
+        "演出09:00–11:00；園遊會10:00–14:00。"
+      ],
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年11月22日（日）",
+          "url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "time",
+          "quote": "09:00－14:00",
+          "url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "eligibility",
+          "quote": "帶著家人、朋友一起來同樂",
+          "url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        }
+      ]
+    },
+    {
+      "id": "S01:C6AD3B6D5810F476",
+      "source_id": "S01",
+      "source_event_id": "C6AD3B6D5810F476",
+      "title": "一起接住彼此",
+      "organizer": "臺北市社區心理衛生中心",
+      "source_url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "63212e8756d46051138f5fe52ccc2164084af40fa6aa5c9d4aee23f7ef657012",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "scheduled",
+      "publication_status": "listed_with_caveats",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "time",
+          "quote": "115年11月22日（日）9 :30-12:30",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "63212e8756d46051138f5fe52ccc2164084af40fa6aa5c9d4aee23f7ef657012",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "臺北市中正區心理衛生中心四樓多功能活動室（臺 北市中正區金山南路一段5號）",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "63212e8756d46051138f5fe52ccc2164084af40fa6aa5c9d4aee23f7ef657012",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "居住臺北市的 精障者家屬/照顧者 優先。",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "63212e8756d46051138f5fe52ccc2164084af40fa6aa5c9d4aee23f7ef657012",
+          "locator": "正文"
+        },
+        {
+          "field": "registration",
+          "quote": "即日起至額滿為止，錄取 15 人",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "63212e8756d46051138f5fe52ccc2164084af40fa6aa5c9d4aee23f7ef657012",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "臺北市居住家屬優先，優先資格不等於其他地區一定不能參加。",
+        "名額及費用請向原單位確認。",
+        "原文寫至額滿為止，本入口沒有剩餘名額資料。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "start": "2026-11-22T09:30:00+08:00",
+      "end": "2026-11-22T12:30:00+08:00",
+      "category": "講座與交流",
+      "venue": "臺北市中正區心理衛生中心四樓多功能活動室（臺 北市中正區金山南路一段5號）",
+      "eligibility": "居住臺北市的 精障者家屬/照顧者 優先。",
+      "registration_text": "即日起至額滿為止，錄取 15 人",
+      "contact": "請見原單位公告",
+      "summary": "與有相似照顧經驗的家屬交流，認識支持資源，也為自己留一段被理解的時間。"
+    },
+    {
+      "id": "N01:sport53:2026-11-24",
+      "source_id": "N01",
+      "source_event_id": "sport53",
+      "title": "運動紓壓課程・系列場次",
+      "organizer": "台中市康復之友協會",
+      "source_url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+      "start": "2026-11-24T10:00:00+08:00",
+      "end": "2026-11-24T12:00:00+08:00",
+      "city": "台中市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "event_status": "scheduled",
+      "publication_status": "listed_with_caveats",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "last_content_checked_at": "2026-11-14T01:41:07+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": null,
+      "freshness": "fresh",
+      "review_reasons": [],
+      "date_precision": "time",
+      "series_id": "N01:sport53",
+      "category": "紓壓活動",
+      "venue": "台中市北區華信街8號1樓",
+      "eligibility": "內文明載持有精神障礙證明者及家屬；頁首亦列社區民眾，適用資格請向承辦確認。",
+      "summary": "精神康復者與家屬可參加的系列運動課；原公告報名已截止。",
+      "fee_amount": 200,
+      "fee_text": "系列課程200元，單場費用待確認",
+      "registration_status": "closed",
+      "registration_deadline": null,
+      "registration_text": "官方頁面標示報名至2026/10/02且已結束。請勿直接前往；如需候補或中途加入請先洽承辦。",
+      "registration_url": "https://forms.gle/KFWF2bhyDFUfLLYRA",
+      "contact": "04-2208-3901 / 04-2471-5298",
+      "tags": [
+        "家屬",
+        "運動",
+        "紓壓",
+        "系列課程"
+      ],
+      "notes": [
+        "這是已開課的系列課程場次，不代表現在仍接受報名。",
+        "費用為原公告系列課程標價，未確認單場費用。"
+      ],
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "11/17、11/24",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "time",
+          "quote": "上午10:00－12:00",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "eligibility",
+          "quote": "持有精神障礙證明者及家屬",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        },
+        {
+          "field": "registration",
+          "quote": "報名已結束",
+          "url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+          "checked_at": "2026-11-14T01:41:07+08:00",
+          "locator": "官方活動正文；人工核對"
+        }
+      ]
+    },
+    {
+      "id": "S05:308:2026-12-01",
+      "source_id": "S05",
+      "source_event_id": "308",
+      "title": "心家庭暖房・家屬每月聚會",
+      "organizer": "台北市心生活協會",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "source_published_at": null,
+      "source_modified_at": null,
+      "last_successful_fetch_at": "2026-11-12T20:22:29+08:00",
+      "last_content_checked_at": "2026-11-12T20:22:29+08:00",
+      "checked_at": "2026-11-12T20:22:29+08:00",
+      "check_method": "http_rules",
+      "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+      "parser_version": "0.1.0",
+      "city": "台北市",
+      "mode": "實體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "event_status": "scheduled",
+      "publication_status": "listed_with_caveats",
+      "registration_deadline": null,
+      "evidence": [
+        {
+          "field": "date",
+          "quote": "115年度；12月1日",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "time",
+          "quote": "晚上6:30~8:30",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "eligibility",
+          "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        },
+        {
+          "field": "venue",
+          "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+          "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+          "checked_at": "2026-11-12T20:22:29+08:00",
+          "content_hash": "4ee405283ab41cc015f66bd5100347bcbbeb91e017981c308d57254e0c3fb1c1",
+          "locator": "正文"
+        }
+      ],
+      "notes": [
+        "系列活動是否接受單場或中途加入，請先向單位確認。",
+        "時間依原文晚上 6:30–8:30 換算；未確認報名名額。"
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ],
+      "freshness": "fresh",
+      "series_id": "S05:308:warmroom",
+      "start": "2026-12-01T18:30:00+08:00",
+      "end": "2026-12-01T20:30:00+08:00",
+      "category": "支持團體",
+      "venue": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
+      "eligibility": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；心家庭暖房限家屬／照顧者。",
+      "registration_text": "請先向心家庭專線確認本場次的參加方式。",
+      "contact": "02-2739-8516",
+      "contact_verified": false,
+      "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。"
+    },
+    {
+      "id": "S04:502:2026-12-09",
+      "source_id": "S04",
+      "source_event_id": "502",
+      "title": "精神障礙家庭照顧者支持團體",
+      "organizer": "台北市康復之友協會",
+      "source_url": "https://www.tpmra.org.tw/node/502",
+      "start": "2026-12-09T18:30:00+08:00",
+      "end": "2026-12-09T20:30:00+08:00",
+      "city": "台北市",
+      "mode": "實體",
+      "category": "支持團體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "venue": "南港工坊｜臺北市南港區八德路四段768之1號1樓",
+      "eligibility": "精神康復者之照顧者",
+      "summary": "與有相似照顧經驗的人交流，在社工陪伴下整理日常壓力。",
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "registration_deadline": null,
+      "registration_text": "原文提供電話與網路報名；目前名額及本場次受理狀態未確認。",
+      "contact": "02-2747-6041",
+      "event_status": "scheduled",
+      "publication_status": "listed_with_caveats",
+      "checked_at": "2026-11-12T20:21:47+08:00",
+      "last_content_checked_at": "2026-11-12T20:21:47+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": "2026-01-12",
+      "freshness": "fresh",
+      "notes": [
+        "此筆依官方公開頁面核對整理，報名前請與單位確認。",
+        "費用與名額請先向原單位確認。"
+      ],
+      "evidence": [
+        {
+          "field": "time",
+          "quote": "週三晚上18：30-20:30",
+          "url": "https://www.tpmra.org.tw/node/502",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "官方活動正文；人工對照"
+        },
+        {
+          "field": "date",
+          "quote": "115年；團體日期：12/9",
+          "url": "https://www.tpmra.org.tw/node/502",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "標題年度及活動日期片段；人工對照"
+        },
+        {
+          "field": "eligibility",
+          "quote": "精神康復者之照顧者",
+          "url": "https://www.tpmra.org.tw/node/502",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "對象欄位；人工對照"
+        },
+        {
+          "field": "venue",
+          "quote": "臺北市南港區八德路四段768之1號1樓",
+          "url": "https://www.tpmra.org.tw/node/502",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "地點欄位；人工對照"
+        }
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ]
+    },
+    {
+      "id": "S03:161:2026-12-12",
+      "source_id": "S03",
+      "source_event_id": "161",
+      "title": "家屬交流聚會・重要關係人",
+      "organizer": "新北市康復之友協會",
+      "source_url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+      "start": "2026-12-12T14:00:00+08:00",
+      "end": "2026-12-12T16:00:00+08:00",
+      "city": "新北市",
+      "mode": "實體",
+      "category": "支持團體",
+      "audience": "家屬／照顧者",
+      "caregiver_eligible": true,
+      "venue": "國立臺灣圖書館3052教室｜新北市中和區中安街85號3樓",
+      "eligibility": "精障家庭的家屬／照顧者／陪伴者",
+      "summary": "由家屬分享陪伴經驗，交流照顧中的關係與感受。",
+      "fee_amount": null,
+      "fee_text": "原文未註明",
+      "registration_status": "unknown",
+      "registration_deadline": "2026-12-11T12:00:00+08:00",
+      "registration_text": "原文提供電話與網路報名；目前名額及本場次受理狀態未確認。",
+      "contact": "02-2257-8822",
+      "event_status": "scheduled",
+      "publication_status": "listed_with_caveats",
+      "checked_at": "2026-11-12T20:21:47+08:00",
+      "last_content_checked_at": "2026-11-12T20:21:47+08:00",
+      "last_successful_fetch_at": null,
+      "check_method": "manual_web",
+      "source_published_at": null,
+      "freshness": "fresh",
+      "notes": [
+        "此筆依官方公開頁面核對整理，報名前請與單位確認。",
+        "費用與名額請先向原單位確認。"
+      ],
+      "evidence": [
+        {
+          "field": "time",
+          "quote": "2026-12-12 14:00 至 16:00",
+          "url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "官方活動正文；人工對照"
+        },
+        {
+          "field": "date",
+          "quote": "活動日期2026-12-12 ~ 2026-12-12",
+          "url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "標題年度及活動日期片段；人工對照"
+        },
+        {
+          "field": "eligibility",
+          "quote": "精障家庭的家屬／照顧者/陪伴者",
+          "url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "對象欄位；人工對照"
+        },
+        {
+          "field": "venue",
+          "quote": "國立臺灣圖書館3052教室",
+          "url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+          "checked_at": "2026-11-12T20:21:47+08:00",
+          "locator": "地點欄位；人工對照"
+        }
+      ],
+      "review_reasons": [
+        "費用未註明",
+        "報名名額與狀態未確認"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "name": "臺北市社區心理衛生中心",
+      "method": "HTTP / 規則解析",
+      "attempted_at": "2026-11-12T20:22:29+08:00",
+      "status": "success",
+      "errors": [],
+      "parsed_pages": 2,
+      "discovery": "first_list_page_only"
+    },
+    {
+      "id": "S05",
+      "name": "台北市心生活協會",
+      "method": "HTTP / 規則解析",
+      "attempted_at": "2026-11-12T20:22:29+08:00",
+      "status": "success",
+      "errors": [],
+      "parsed_pages": 1,
+      "discovery": "seed_only"
+    },
+    {
+      "id": "S03",
+      "name": "新北市康復之友協會",
+      "method": "人工對照官方頁面",
+      "status": "manual",
+      "attempted_at": "2026-11-12T20:21:47+08:00",
+      "errors": []
+    },
+    {
+      "id": "S04",
+      "name": "台北市康復之友協會",
+      "method": "人工對照官方頁面",
+      "status": "manual",
+      "attempted_at": "2026-11-12T20:21:47+08:00",
+      "errors": []
+    },
+    {
+      "id": "N01",
+      "name": "台中市康復之友協會",
+      "method": "人工核對官方活動正文",
+      "status": "manual",
+      "attempted_at": "2026-11-14T01:41:07+08:00",
+      "errors": []
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "NREG01",
+      "name": "台北市康復之友協會",
+      "city": "台北市",
+      "url": "https://www.tpmra.org.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；已有人工核對活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG02",
+      "name": "新北市康復之友協會",
+      "city": "新北市",
+      "url": "https://www.ntcami.org.tw/events",
+      "status": "manual",
+      "note": "已核對活動列表；家屬與康復者活動需逐筆區分。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.ntcami.org.tw/events"
+    },
+    {
+      "id": "NREG03",
+      "name": "桃園市康復之友協會",
+      "city": "桃園市",
+      "url": "https://www.typr.org.tw/ap/index.aspx",
+      "status": "discovery",
+      "note": "已開啟官網；公告列表本輪逾時，近期家屬場次尚待核對。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.typr.org.tw/ap/index.aspx"
+    },
+    {
+      "id": "NREG04",
+      "name": "新竹市精神健康協會",
+      "city": "新竹市",
+      "url": "https://www.healthymind.org.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG05",
+      "name": "苗栗縣康復之友協會",
+      "city": "苗栗縣",
+      "url": "https://www.mlmra.org.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG06",
+      "name": "台中市康復之友協會",
+      "city": "台中市",
+      "url": "https://www.mratc.org.tw/",
+      "status": "manual",
+      "note": "已核對活動詳頁；已有報名截止課程，不代表仍可加入。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.mratc.org.tw/"
+    },
+    {
+      "id": "NREG07",
+      "name": "臺中市心樂活關懷協會",
+      "city": "台中市",
+      "url": "https://www.newhappyheart.com.tw/tw/news-detail/85?range=asc",
+      "status": "manual",
+      "note": "已核對115年家連家課程，但4–5月已結束；保留來源供後續追蹤。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.newhappyheart.com.tw/tw/news-detail/85?range=asc"
+    },
+    {
+      "id": "NREG08",
+      "name": "南投縣康復之友協會",
+      "city": "南投縣",
+      "url": "https://jnanry.org/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG09",
+      "name": "嘉義市心康復之友協會",
+      "city": "嘉義市",
+      "url": "https://cycmra.com/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG10",
+      "name": "奇美醫院思覺失調症家屬支持團體",
+      "city": "台南市",
+      "url": "https://www.chimei.org.tw/ePhotoAlbum/files/4294784C9E42A9F352401B3D9E2F6C15.pdf",
+      "status": "manual",
+      "note": "已核對115年度說明；下半年日期在外部報名表，本輪無法讀取，未作可參加活動刊登。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.chimei.org.tw/ePhotoAlbum/files/4294784C9E42A9F352401B3D9E2F6C15.pdf"
+    },
+    {
+      "id": "NREG11",
+      "name": "高雄市築夢關懷協會",
+      "city": "高雄市",
+      "url": "https://www.ksdreammaking.org/",
+      "status": "discovery",
+      "note": "官網有115年家屬支持團體；本輪已找到者在10月前結束，未作近期活動刊登。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://www.ksdreammaking.org/"
+    },
+    {
+      "id": "NREG12",
+      "name": "高雄市政府衛生局家屬支持團體公告",
+      "city": "高雄市",
+      "url": "https://health.kcg.gov.tw/News_Content.aspx?n=1AEC126FD91C6714&s=724DB569F8F6A6B6&sms=DE9DF785CC10DDB0",
+      "status": "manual",
+      "note": "已核對酒癮家屬團體，但7–9月已結束；來源追蹤用。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content",
+      "evidence_url": "https://health.kcg.gov.tw/News_Content.aspx?n=1AEC126FD91C6714&s=724DB569F8F6A6B6&sms=DE9DF785CC10DDB0"
+    },
+    {
+      "id": "NREG13",
+      "name": "宜蘭縣康復之友協會",
+      "city": "宜蘭縣",
+      "url": "https://www.kf2349.artcom.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG14",
+      "name": "金門縣康復之友協會",
+      "city": "金門縣",
+      "url": "https://www.kmmra.artcom.tw/",
+      "status": "directory",
+      "note": "康盟名錄確認官網；未驗證近期課程。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "directory_link",
+      "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG-基隆市",
+      "name": "基隆市｜全國心衛中心名錄入口",
+      "city": "基隆市",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立基隆市直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-新竹縣",
+      "name": "新竹縣｜全國心衛中心名錄入口",
+      "city": "新竹縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立新竹縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-彰化縣",
+      "name": "彰化縣｜全國心衛中心名錄入口",
+      "city": "彰化縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立彰化縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-雲林縣",
+      "name": "雲林縣｜全國心衛中心名錄入口",
+      "city": "雲林縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立雲林縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-嘉義縣",
+      "name": "嘉義縣｜全國心衛中心名錄入口",
+      "city": "嘉義縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立嘉義縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-屏東縣",
+      "name": "屏東縣｜全國心衛中心名錄入口",
+      "city": "屏東縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立屏東縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-花蓮縣",
+      "name": "花蓮縣｜全國心衛中心名錄入口",
+      "city": "花蓮縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立花蓮縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-台東縣",
+      "name": "台東縣｜全國心衛中心名錄入口",
+      "city": "台東縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立台東縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-澎湖縣",
+      "name": "澎湖縣｜全國心衛中心名錄入口",
+      "city": "澎湖縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立澎湖縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-連江縣",
+      "name": "連江縣｜全國心衛中心名錄入口",
+      "city": "連江縣",
+      "url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html",
+      "status": "directory",
+      "note": "尚未建立連江縣直接活動來源。此連結是衛福部全國名錄，請於附件查找該縣市窗口；不表示已收錄當地活動。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "national_directory_only",
+      "evidence_url": "https://dep.mohw.gov.tw/domhaoh/cp-6435-70356-107.html"
+    },
+    {
+      "id": "NREG-NATIONAL",
+      "name": "康復之友聯盟友會資源名錄",
+      "city": "全台",
+      "url": "https://www.tamiroc.org.tw/about/8",
+      "status": "directory",
+      "note": "跨縣市來源發現入口；團體服務名錄並非即時活動清單。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "content"
+    },
+    {
+      "id": "NREG-ONLINE",
+      "name": "線上場次來源待補",
+      "city": "線上",
+      "url": "https://www.tamiroc.org.tw/about/8",
+      "status": "directory",
+      "note": "本輪未找到可核對日期、資格與線上參與方式的近期精神疾病家屬場次；先提供全國團體名錄，不表示有線上課程可報名。",
+      "checked_at": "2026-11-14T01:41:07+08:00",
+      "verification": "gap"
+    }
+  ],
+  "discovered": [
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=4C7BEEC7857C3300",
+      "title": "心理師來解惑",
+      "status": "discovered_not_parsed"
+    },
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=FDB09355A2F9129D",
+      "title": "115年9月6日、10月4日、11月1日、12月6日【親子共讀工作坊：用繪本和孩子談情緒】即日起報名開始",
+      "status": "discovered_not_parsed"
+    },
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=D2A425452817041B",
+      "title": "115年11月14日、11月28日(六)【元氣職場-線上及實體講座】用雙手創造溫暖，讓心慢下來",
+      "status": "discovered_not_parsed"
+    },
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
+      "title": "115年11月15日-陪伴彼此，走過照顧日常",
+      "status": "discovered_not_parsed"
+    },
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
+      "title": "115年11月22日-一起接住彼此",
+      "status": "discovered_not_parsed"
+    },
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=8588FEC0FA3DBDD1",
+      "title": "115年11月13日-櫃檯實習生：職場實務體驗與職涯探索",
+      "status": "discovered_not_parsed"
+    },
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=A56D701B4827E9DC",
+      "title": "115年11月16日【家有幸孕星★線上講座】「好孕駕到！」高齡孕產的身心調適與心理韌力",
+      "status": "discovered_not_parsed"
+    },
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=77CEC53FB8D44D98",
+      "title": "115年11月22日【ADHD親職線上講座-從「做不到」到「我可以」：陪ADHD孩子長出自己的力量】開放報名!",
+      "status": "discovered_not_parsed"
+    },
+    {
+      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=D8FDA6BE2D717F72",
+      "title": "周產期心理健康促進活動-家有幸孕星講座&專業人員教育訓練",
+      "status": "discovered_not_parsed"
+    }
+  ],
+  "quarantine": [],
+  "duplicates": [],
+  "resources": [
+    {
+      "id": "heartlife-contact",
+      "name": "心家庭專線",
+      "organizer": "台北市心生活協會",
+      "description": "精神病友與家屬的電話支持、預約會談及資源討論。可先說明需要，請單位協助確認合適服務。",
+      "phone": "02-2739-8516",
+      "hours": "週一至週五，上班日 09:00–12:00、13:30–16:30",
+      "eligibility": "戶籍、居住、就業或就學在臺北市的精神病友或其家屬／照顧者。",
+      "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
+      "checked_at": "2026-11-12T20:21:47+08:00",
+      "fee": "原文未註明；請向單位確認",
+      "note": "一般支持服務，非全天候或緊急服務。"
+    }
+  ],
+  "limitations": [
+    "全台活動搜尋預覽；來源尚未完整覆蓋各縣市。",
+    "自動擷取僅限已設定來源；尚未啟用持續更新排程。",
+    "不明資格或缺少證據的候選不進入活動清單；費用與名額不明者保留待確認。"
+  ]
+}
