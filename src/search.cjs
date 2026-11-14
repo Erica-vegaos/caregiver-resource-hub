@@ -1,4 +1,4 @@
-/* 有伴搜尋 v1.0.0 — dependency-free browser/CommonJS shared search rules. */
+/* 聽見你搜尋 v1.0.0 — dependency-free browser/CommonJS shared search rules. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
