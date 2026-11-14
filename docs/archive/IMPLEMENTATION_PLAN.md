@@ -4,7 +4,7 @@
 
 目標：先做一個能手動執行、讀取兩個公開來源、輸出活動候選及待確認理由的小工具，驗證能否準確整理並減少維護時間。完成此階段不代表已能公開營運。
 
-依據：[可行性研究](../research/AUTOMATED_UPDATES_FEASIBILITY.md)、[來源盤點](../research/SOURCE_INVENTORY.md)、[更新流程規格](UPDATE_PIPELINE_MVP.md)。三份原文件保持 v0.1，本文件新增任務切分與驗收順序；沒有重新查價或宣稱來源已有長期穩定性。
+依據：[可行性研究](AUTOMATED_UPDATES_FEASIBILITY.md)、[來源盤點](SOURCE_INVENTORY.md)、[更新流程規格](UPDATE_PIPELINE_MVP.md)。三份原文件保持 v0.1，本文件新增任務切分與驗收順序；沒有重新查價或宣稱來源已有長期穩定性。
 
 ## 交付後實際如何使用
 

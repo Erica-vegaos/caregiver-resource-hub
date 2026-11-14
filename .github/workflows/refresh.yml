@@ -1,25 +1,74 @@
 name: Refresh and review activity data
+# Daily: re-read configured sources, rebuild, test, then update ONE rolling PR.
+# Merging that PR to main is the publish step: Cloudflare deploys the committed dist/.
 on:
+  schedule:
+    - cron: '17 22 * * *' # 06:17 Asia/Taipei
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
+concurrency:
+  group: hearyou-refresh
+  cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - run: python src/build.py --refresh
       - run: python -m unittest discover -s tests -v
+      - run: node --test tests/test_search.cjs
+      - name: Summarize changes
+        id: summary
+        run: |
+          python - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json
+          s = json.load(open('data/run_summary.json'))
+          failed = [x['name'] for x in s['sources'] if x.get('status') != 'success']
+          print(f"changes={s['changes']}")
+          print(f"future={s['future']}")
+          print(f"quarantined={s['quarantined']}")
+          print(f"discovered={s['discovered_unparsed']}")
+          print(f"failed={'、'.join(failed) or '無'}")
+          EOF
       - uses: actions/upload-artifact@v4
         with:
-          name: youban-refreshed-data-and-preview
+          name: hearyou-refreshed-data-and-preview
           path: |
             data/events.json
             data/changes.json
             data/run_summary.json
             data/review.md
             dist/
+          retention-days: 14
+      - name: Open or update the rolling data PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/data-refresh
+          delete-branch: true
+          add-paths: |
+            data/events.json
+            data/changes.json
+            data/run_summary.json
+            data/review.md
+            dist/
+          commit-message: 'data: daily source refresh'
+          title: '每日資料更新（合併即上線）'
+          body: |
+            自動刷新結果，合併到 main 後 Cloudflare 會自動部署。
 
+            - 活動欄位變動：${{ steps.summary.outputs.changes }}
+            - 未來場次：${{ steps.summary.outputs.future }}
+            - 隔離候選：${{ steps.summary.outputs.quarantined }}
+            - 列表發現未解析：${{ steps.summary.outputs.discovered }}
+            - 抓取失敗來源：${{ steps.summary.outputs.failed }}
+
+            合併前請看 `data/review.md` 的待確認項目。測試已在此 workflow 通過。
