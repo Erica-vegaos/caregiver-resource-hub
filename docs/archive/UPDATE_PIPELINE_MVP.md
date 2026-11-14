@@ -2,7 +2,7 @@
 
 版本：v0.1｜研究日期：2026-11-12（Asia/Taipei）
 
-本文件全部是建議規格；本輪未建立程式、資料庫、Actions workflow、排程、網站或部署。來源與實驗事實見 [來源盤點](../research/SOURCE_INVENTORY.md)，決策理由見 [可行性研究](../research/AUTOMATED_UPDATES_FEASIBILITY.md)。
+本文件全部是建議規格；本輪未建立程式、資料庫、Actions workflow、排程、網站或部署。來源與實驗事實見 [來源盤點](SOURCE_INVENTORY.md)，決策理由見 [可行性研究](AUTOMATED_UPDATES_FEASIBILITY.md)。
 
 ## 最小架構與儲存選擇
 
@@ -133,7 +133,7 @@ JSON 優先的理由：少量資料容易 diff、回復與人工審核；SQLite 
 | 一般 HTML 改版 | 每次額外 1–3 小時 | 修規則、核對回歸樣本；不包含在 30 分鐘預算 |
 | 存取政策改變／複雜 PDF | 每次額外 2–8 小時，或停止支援 | 不能保證有解，優先切替代來源而非解驗證 |
 
-每週 30 分鐘前提及放棄項目見 [可行性研究](../research/AUTOMATED_UPDATES_FEASIBILITY.md)。若堅持 10 來源、每日完整、圖片／社群也收、可報名狀態即時可靠，**目前證據不支持此維護目標**。
+每週 30 分鐘前提及放棄項目見 [可行性研究](AUTOMATED_UPDATES_FEASIBILITY.md)。若堅持 10 來源、每日完整、圖片／社群也收、可報名狀態即時可靠，**目前證據不支持此維護目標**。
 
 替代方案：本機手動執行省去排程設定，但依賴經營者開機；單位提交資料可減解析成本，仍需驗證及更新責任；自架 n8n/VM 增常駐維護，託管 no-code 的價格與限制本輪未查證，沒有證據比單一批次更適合。除非量測證明 Actions 延遲或資料保存不合需求，不先換平台。
 

@@ -23,7 +23,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo('Asia/Taipei')
-VERSION = '1.1.2'
+VERSION = '1.1.3'
 HOSTS = {'mental-health.gov.taipei', 'www.heartlife.org.tw'}
 TAIPEI = 'https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss='
 HEART = 'https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308'
@@ -410,6 +410,15 @@ def apply_media_registry(records):
         local = ROOT / asset
         if not local.is_file() or hashlib.sha256(local.read_bytes()).hexdigest() != item.get('sha256'):
             raise ValueError('poster_asset_missing_or_changed')
+        # The original copy stays the evidence; a verified, smaller derivative is what ships.
+        display = item.get('display_asset')
+        if display:
+            if not re.fullmatch(r'assets/posters/[a-z0-9-]+\.(?:jpg|png|webp)', display):
+                raise ValueError('invalid_poster_display_asset')
+            shown = ROOT / display
+            if not shown.is_file() or hashlib.sha256(shown.read_bytes()).hexdigest() != item.get('display_sha256'):
+                raise ValueError('poster_display_asset_missing_or_changed')
+            asset = display
         event['poster_asset'] = asset
         event['poster_capture_method'] = item.get('capture_method')
         event['poster_checked_at'] = item.get('observed_at')
@@ -496,11 +505,18 @@ def build(refresh=False, now=None, fixture_dir=None):
                'events': events, 'sources': health, 'source_registry': registry, 'discovered': discovered,
                'quarantine': quarantine, 'duplicates': duplicates, 'resources': manual.get('resources', []),
                'limitations': ['全台活動搜尋預覽；來源尚未完整覆蓋各縣市。',
-                               '自動擷取僅限已設定來源；尚未啟用持續更新排程。',
+                               '自動擷取僅限已設定來源；每日刷新經合併後上線。',
                                '不明資格或缺少證據的候選不進入活動清單；費用與名額不明者保留待確認。']}
+    # Keep the previous build stamp when nothing but the clock changed, so rebuilds
+    # produce no diff and automation can tell real updates from noise.
+    if old.get('built_at') and {**old, 'built_at': None} == {**payload, 'built_at': None}:
+        checked = payload['built_at'] = old['built_at']
     (ROOT / 'data').mkdir(exist_ok=True); (ROOT / 'dist').mkdir(exist_ok=True)
     def write_json(name, value):
-        (ROOT / 'data' / name).write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+        path = ROOT / 'data' / name
+        text = json.dumps(value, ensure_ascii=False, indent=2) + '\n'
+        if not path.exists() or path.read_text() != text:
+            path.write_text(text)
     write_json('events.json', payload)
     write_json('changes.json', changes)
     summary = {'built_at': checked, 'events': len(events),
@@ -509,7 +525,7 @@ def build(refresh=False, now=None, fixture_dir=None):
                'discovered_unparsed': len(discovered), 'registry_sources': len(registry),
                'coverage': 'nationwide search; partial verified sources; manual national records plus configured HTTP adapters'}
     write_json('run_summary.json', summary)
-    review = '# v1.0 人工待確認報告\n\n' + checked + '\n\n活動僅供查詢；名額未知不代表開放報名。未啟用排程。\n\n'
+    review = f'# v{VERSION} 人工待確認報告\n\n' + checked + '\n\n活動僅供查詢；名額未知不代表開放報名。每日自動刷新，合併 PR 後才上線。\n\n'
     for e in events:
         if aware_datetime(e['end'], 'end') >= now and e['review_reasons']:
             review += f"- {e['title']} {e['start'][:10]}：" + '；'.join(e['review_reasons']) + f"。來源：{e['source_url']}\n"
@@ -534,9 +550,21 @@ def build(refresh=False, now=None, fixture_dir=None):
     template = (ROOT / 'templates/index.html').read_text()
     search_path = ROOT / 'src/search.cjs'
     search_js = search_path.read_text() if search_path.exists() else ''
-    if (ROOT / 'assets/posters').exists():
-        shutil.copytree(ROOT / 'assets/posters', ROOT / 'dist/assets/posters', dirs_exist_ok=True)
-    (ROOT / 'dist/index.html').write_text(template.replace('__DATA_JSON__', embedded).replace('__SEARCH_JS__', search_js))
+    # Ship only the posters events actually reference; stale or original copies stay out of dist.
+    poster_dir = ROOT / 'dist/assets/posters'
+    shipped = {e['poster_asset'] for e in events if e.get('poster_asset')}
+    poster_dir.mkdir(parents=True, exist_ok=True)
+    for stale in poster_dir.iterdir():
+        if 'assets/posters/' + stale.name not in shipped:
+            stale.unlink()
+    for asset in sorted(shipped):
+        target = ROOT / 'dist' / asset
+        if not target.exists() or target.read_bytes() != (ROOT / asset).read_bytes():
+            shutil.copyfile(ROOT / asset, target)
+    page = template.replace('__DATA_JSON__', embedded).replace('__SEARCH_JS__', search_js)
+    index = ROOT / 'dist/index.html'
+    if not index.exists() or index.read_text() != page:
+        index.write_text(page)
     return summary
 
 if __name__=='__main__':

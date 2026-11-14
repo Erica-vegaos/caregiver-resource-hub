@@ -41,7 +41,7 @@
 
 ## 自動化方式比較
 
-以下可靠性與維護量是設計判斷，不是本輪壓測數據。費用為執行方案估算；官方價格及公式在 [MVP 計畫](../planning/UPDATE_PIPELINE_MVP.md)。
+以下可靠性與維護量是設計判斷，不是本輪壓測數據。費用為執行方案估算；官方價格及公式在 [MVP 計畫](UPDATE_PIPELINE_MVP.md)。
 
 | 方式 | 適用與可靠性 | 維護／費用 | 本案決策 |
 | --- | --- | --- | --- |
@@ -79,7 +79,7 @@ Python `sqlite3` 可處理不需額外資料庫伺服器的儲存；pypdf 官方
 
 ## 建議與參考
 
-先做離線可重跑的候選整理實驗，驗證「正確、能省人工」再建網站。是否有足夠未來活動、能否降低搜尋負擔尚未驗證；不以技術可寫等同產品值得擴張。下一步與停止門檻見 [MVP 計畫](../planning/UPDATE_PIPELINE_MVP.md)，活動證據與來源連結見 [來源盤點](SOURCE_INVENTORY.md)。
+先做離線可重跑的候選整理實驗，驗證「正確、能省人工」再建網站。是否有足夠未來活動、能否降低搜尋負擔尚未驗證；不以技術可寫等同產品值得擴張。下一步與停止門檻見 [MVP 計畫](UPDATE_PIPELINE_MVP.md)，活動證據與來源連結見 [來源盤點](SOURCE_INVENTORY.md)。
 
 成本依據：[GitHub Actions 計費](https://docs.github.com/en/billing/concepts/product-billing/github-actions)、[runner 費率](https://docs.github.com/en/billing/reference/actions-runner-pricing)、[排程限制](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)、[模型費率](https://developers.openai.com/api/docs/models/gpt-5.4-mini)；均於 2026-11-12 開啟查核，未申請任何服務。
 

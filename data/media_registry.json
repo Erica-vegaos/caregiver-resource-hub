@@ -6,6 +6,8 @@
       "source_url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
       "poster_asset": "assets/posters/caregiver-daily-20261115.jpg",
       "sha256": "c0a7391b1f35746ab0aceaeb44c02e81dd67462d68eec6767b9a0697a8fcfc92",
+      "display_asset": "assets/posters/caregiver-daily-20261115.webp",
+      "display_sha256": "fcbefb76a1e6be98bbf8aad095c570f82dec0a40783be1a504d70d130a47cff5",
       "capture_method": "user_supplied_original_poster_copy",
       "review_note": "依使用者提供海報比對活動名稱、日期與地點；不宣稱由爬蟲下載。",
       "observed_at": "2026-11-14T13:41:46+08:00",
@@ -22,6 +24,8 @@
       "source_url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68",
       "poster_asset": "assets/posters/community-carnival-20261122.jpg",
       "sha256": "b33f65d02303ae76de82863b162cd78a1f562ee0692473c16b8426a2735bea5c",
+      "display_asset": "assets/posters/community-carnival-20261122.webp",
+      "display_sha256": "b3e1803524ac317993d9dd1e715236b3b0ba9f0c616da41a297a013826d00bbd",
       "capture_method": "user_supplied_original_poster_copy",
       "review_note": "依使用者提供海報比對活動名稱、日期與地點；不宣稱由爬蟲下載。",
       "observed_at": "2026-11-14T13:41:46+08:00"
