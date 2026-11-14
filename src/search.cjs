@@ -1,4 +1,4 @@
-/* 聽見你搜尋 v1.0.0 — dependency-free browser/CommonJS shared search rules. */
+/* 聽見你搜尋 v1.1.0 — guided topic matching; no health-profile storage. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -63,6 +63,28 @@
     if (wanted === '紓壓活動') return /紓壓|喘息|休閒|戶外/.test(value);
     return value === normalize(wanted);
   }
+  const TOPICS = {schizophrenia:'思覺失調', depression:'憂鬱症', bipolar:'躁鬱・雙相', general:'家屬通用支持', all:'所有主題'};
+  function topicInfo(event) {
+    // Organizer names and incidental notes are not evidence of an event's topic.
+    const raw = normalize([event.title,event.summary,event.eligibility,...(event.tags || [])].join('。'));
+    const clauses = raw.split(/[。；;，,\n]/);
+    const negative = /不含|不包括|不接受|不開放|不適用|不收|排除/;
+    const text = clauses.filter(clause=>!negative.test(clause)).join(' ');
+    const patterns = {schizophrenia:/思覺失調/, depression:/憂鬱|重鬱/, bipolar:/雙相/};
+    const excluded = Object.entries(patterns).filter(([,pattern])=>clauses.some(clause=>negative.test(clause)&&pattern.test(clause))).map(([key])=>key);
+    const specific = Object.entries(patterns).filter(([,pattern])=>pattern.test(text)).map(([key])=>key);
+    if (specific.length) return {topics:specific, general:false, excluded};
+    const support = /家屬|照顧者|家人|家庭/.test(normalize(event.eligibility)) &&
+      /支持|團體|聚會|交流|照顧|紓壓|休閒|共融/.test(normalize([event.title,event.category,event.summary].join(' ')));
+    return {topics:[], general:event.caregiver_eligible === true && support && excluded.length===0, excluded};
+  }
+  function topicMatch(event, wanted, includeGeneral = false) {
+    if (!wanted || wanted === 'all') return true;
+    if (!Object.hasOwn(TOPICS,wanted)) return false;
+    const info = topicInfo(event);
+    if (info.excluded.includes(wanted)) return false;
+    return wanted === 'general' ? info.general : info.topics.includes(wanted) || (includeGeneral && info.general);
+  }
   function search(events, filters = {}, now = Date.now(), savedIds = []) {
     if (filters.from && filters.to && filters.from > filters.to) return [];
     const saved = savedIds instanceof Set ? savedIds : new Set(savedIds);
@@ -74,6 +96,7 @@
       if (city !== 'all' && normalize(event.city) !== city) return false;
       if (filters.mode && filters.mode !== 'all' && event.mode !== filters.mode && !(filters.mode === '線上' && event.mode === '混合')) return false;
       if (!categoryMatch(event.category, filters.category)) return false;
+      if (!topicMatch(event, filters.topic, filters.includeGeneral === true)) return false;
       const d = derived(event, now), start = Date.parse(event.start), end = endTime(event);
       const cancelled = event.event_status === 'cancelled';
       const period = filters.period || 'upcoming';
@@ -90,6 +113,10 @@
     });
     const sort = filters.sort || 'relevance';
     return results.sort((a, b) => {
+      if (filters.topic && !['all','general'].includes(filters.topic)) {
+        const group = Number(topicInfo(a).general) - Number(topicInfo(b).general);
+        if (group) return group;
+      }
       if (sort === 'checked') return Date.parse(b.checked_at) - Date.parse(a.checked_at) || Date.parse(a.start) - Date.parse(b.start);
       if (sort === 'relevance' && terms(filters.query).length) {
         const delta = relevance(b, filters.query) - relevance(a, filters.query);
@@ -98,5 +125,5 @@
       return Date.parse(a.start) - Date.parse(b.start) || String(a.id).localeCompare(String(b.id));
     });
   }
-  return { version:'1.0.0', CITIES, normalize, terms, matchText, relevance, derived, taipeiDate, search };
+  return { version:'1.1.0', CITIES, TOPICS, topicInfo, topicMatch, normalize, terms, matchText, relevance, derived, taipeiDate, search };
 });
