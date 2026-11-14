@@ -60,3 +60,47 @@ test('inverted date range has no matches even for spanning events',()=>{
  const spanning=e({start:'2026-11-01T00:00:00+08:00',end:'2026-12-01T23:59:00+08:00'});
  assert.equal(S.search([spanning],{from:'2026-11-25',to:'2026-11-20'},now).length,0);
 });
+
+// v1.1.0: topic selection is a strict gate, with general support opt-in.
+const topicRows = [
+ e({id:'sch',title:'思覺失調家屬講座',summary:''}),
+ e({id:'dep',title:'憂鬱症陪伴講座',summary:''}),
+ e({id:'bip',title:'雙相情感障礙症家屬講座',summary:''}),
+ e({id:'general',title:'家屬交流支持團體',summary:''}),
+ e({id:'unknown',title:'資訊分享',summary:'',category:'其他',eligibility:'符合公告資格者'})
+];
+test('choosing schizophrenia excludes depression and bipolar lectures',()=>{
+ assert.deepEqual(S.search(topicRows,{topic:'schizophrenia'},now).map(x=>x.id),['sch']);
+});
+test('depression and bipolar remain separate topics',()=>{
+ assert.deepEqual(S.search(topicRows,{topic:'depression'},now).map(x=>x.id),['dep']);
+ assert.deepEqual(S.search(topicRows,{topic:'bipolar'},now).map(x=>x.id),['bip']);
+});
+test('general support is opt-in and follows specific matches even if earlier',()=>{
+ const general=e({id:'early',title:'家屬交流團體',summary:'',start:'2026-11-15T09:00:00+08:00'});
+ assert.deepEqual(S.search([...topicRows,general],{topic:'schizophrenia',includeGeneral:true},now).map(x=>x.id),['sch','early','general']);
+ assert.deepEqual(S.search(topicRows,{topic:'general'},now).map(x=>x.id),['general']);
+});
+test('unknown scope and organizer names do not become specific or general matches',()=>{
+ const incidental=e({title:'資訊分享',summary:'',category:'其他',eligibility:'依公告',organizer:'思覺失調憂鬱躁鬱協會',notes:['思覺失調']});
+ assert.equal(S.search([incidental],{topic:'schizophrenia',includeGeneral:true},now).length,0);
+ assert.equal(S.search([incidental],{topic:'all'},now).length,1);
+});
+test('missing relevant activity stays empty, with no automatic broadening',()=>{
+ assert.equal(S.search(topicRows.filter(x=>x.id!=='sch'),{topic:'schizophrenia'},now).length,0);
+});
+test('topic and geography/online/date criteria apply together',()=>{
+ assert.equal(S.search(topicRows,{topic:'schizophrenia',city:'台中市'},now).length,0);
+ assert.equal(S.search(topicRows,{topic:'schizophrenia',mode:'線上'},now).length,0);
+ assert.equal(S.search(topicRows,{topic:'schizophrenia',to:'2026-11-19'},now).length,0);
+});
+test('schizophrenia alias is recognized, while explicit exclusion is rejected',()=>{
+ assert.equal(S.topicMatch(e({title:'精神分裂症家屬講座',summary:''}),'schizophrenia'),true);
+ const excluded=e({title:'家屬支持團體',summary:'',eligibility:'不含憂鬱症家屬'});
+ assert.equal(S.topicMatch(excluded,'depression',true),false);
+ assert.equal(S.topicInfo(excluded).general,false);
+});
+test('invalid topics fail closed and string true does not opt into general support',()=>{
+ assert.equal(S.search(topicRows,{topic:'unrecognized'},now).length,0);
+ assert.deepEqual(S.search(topicRows,{topic:'schizophrenia',includeGeneral:'true'},now).map(x=>x.id),['sch']);
+});
