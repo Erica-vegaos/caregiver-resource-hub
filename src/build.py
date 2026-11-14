@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo('Asia/Taipei')
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 HOSTS = {'mental-health.gov.taipei', 'www.heartlife.org.tw'}
 TAIPEI = 'https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss='
 HEART = 'https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308'
