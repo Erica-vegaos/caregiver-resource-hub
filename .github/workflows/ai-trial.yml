@@ -1,0 +1,68 @@
+name: AI trial (NT$300 budget)
+on:
+  push:
+    branches: [main]
+    paths:
+      - src/ai_trial.py
+      - config/ai_trial.json
+      - .github/workflows/ai-trial.yml
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Fetch source pages only, without paid AI requests
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: hearyou-ai-trial-budget
+  cancel-in-progress: false
+jobs:
+  trial:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check API configuration
+        if: ${{ github.event_name == 'workflow_dispatch' && !inputs.dry_run }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo 'Missing OPENAI_API_KEY. Add it to repository Actions secrets; never paste it into chat.'
+            exit 1
+          fi
+      - name: Check out persistent budget ledger
+        if: ${{ github.event_name == 'workflow_dispatch' && !inputs.dry_run }}
+        uses: actions/checkout@v4
+        with:
+          ref: ai-trial-state
+          path: .ai-state
+      - name: Run source-only preflight
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.dry_run }}
+        run: python src/ai_trial.py --dry-run
+      - name: Run bounded extraction trial
+        if: ${{ github.event_name == 'workflow_dispatch' && !inputs.dry_run }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python src/ai_trial.py --state-dir .ai-state
+      - name: Show trial report
+        if: always()
+        run: |
+          if [ -f trial-output/report.json ]; then
+            echo '### AI trial report (publication disabled)' >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat trial-output/report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hearyou-ai-trial-report
+          path: trial-output/report.json
+          if-no-files-found: ignore
+          retention-days: 14
