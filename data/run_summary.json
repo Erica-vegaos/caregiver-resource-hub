@@ -1,7 +1,7 @@
 {
-  "built_at": "2026-11-14T14:30:43+08:00",
-  "events": 16,
-  "future": 8,
+  "built_at": "2026-11-14T16:21:23+08:00",
+  "events": 22,
+  "future": 14,
   "sources": [
     {
       "id": "S01",
@@ -45,6 +45,22 @@
       "method": "人工核對官方活動正文",
       "status": "manual",
       "attempted_at": "2026-11-14T01:41:07+08:00",
+      "errors": []
+    },
+    {
+      "id": "L01",
+      "name": "臺灣家連家精神健康教育協會",
+      "method": "家屬社群轉貼，人工整理",
+      "status": "manual",
+      "attempted_at": "2026-11-14T15:28:00+08:00",
+      "errors": []
+    },
+    {
+      "id": "L03",
+      "name": "伊甸基金會 活泉社區家庭支持中心",
+      "method": "家屬社群轉貼，人工整理",
+      "status": "manual",
+      "attempted_at": "2026-11-14T15:28:00+08:00",
       "errors": []
     }
   ],

@@ -1,15 +1,19 @@
-# v1.1.3 人工待確認報告
+# v1.1.4 人工待確認報告
 
-2026-11-14T14:30:43+08:00
+2026-11-14T16:21:23+08:00
 
 活動僅供查詢；名額未知不代表開放報名。每日自動刷新，合併 PR 後才上線。
 
 - 陪伴彼此，走過照顧日常 2026-11-15：報名名額與狀態未確認。來源：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB
+- 家屬座談：攜手相伴・愛不打烊（線上） 2026-11-22：費用未註明；原文僅確認活動日期，時間請洽原單位。來源：https://forms.gle/dGZ6ifie8ThvSLs36
 - 心光燦爛嘉年華・精神康復共融活動 2026-11-22：費用未註明；報名名額與狀態未確認。來源：https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68
 - 一起接住彼此 2026-11-22：費用未註明；報名名額與狀態未確認。來源：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476
+- 家屬同儕駐點《善意溝通》學習交流 2026-11-27：費用未註明。來源：https://www.ntcami.org.tw/civicrm/event/info?reset=1&id=175
 - 心家庭暖房・家屬每月聚會 2026-12-01：費用未註明；報名名額與狀態未確認。來源：https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308
 - 精神障礙家庭照顧者支持團體 2026-12-09：費用未註明；報名名額與狀態未確認。來源：https://www.tpmra.org.tw/node/502
+- 家屬同儕駐點《善意溝通》學習交流 2026-12-11：費用未註明。來源：https://www.ntcami.org.tw/civicrm/event/info?reset=1&id=175
 - 家屬交流聚會・重要關係人 2026-12-12：費用未註明；報名名額與狀態未確認。來源：https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1
+- 未來規劃：信託安排實作準備 2026-12-15：費用未註明。來源：https://www.ntcami.org.tw/civicrm/event/register?reset=1&id=196
 
 ## 隔離候選（不顯示為可參加活動）
 
@@ -26,8 +30,14 @@
 
 ## 原公告圖片檢查
 
+- 家連家精神健康教育・線上 8 堂課：未取得海報。來源：https://forms.gle/HawJP9fAmBF81EfHA
+- 家屬座談：攜手相伴・愛不打烊（線上）：未取得海報。來源：https://forms.gle/dGZ6ifie8ThvSLs36
 - 一起接住彼此：未取得海報。來源：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476
+- 家屬同儕駐點《善意溝通》學習交流：未取得海報。來源：https://www.ntcami.org.tw/civicrm/event/info?reset=1&id=175
 - 心家庭暖房・家屬每月聚會：未取得海報。來源：https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308
+- 標籤之外，看見彼此的模樣｜專線週末分享會：未取得海報。來源：https://forms.gle/XPwmb7jTXbonb8ev7
+- 家屬同儕駐點《善意溝通》學習交流：未取得海報。來源：https://www.ntcami.org.tw/civicrm/event/info?reset=1&id=175
+- 未來規劃：信託安排實作準備：未取得海報。來源：https://www.ntcami.org.tw/civicrm/event/register?reset=1&id=196
 
 ## 來源狀況
 
@@ -36,3 +46,5 @@
 - 新北市康復之友協會：manual；
 - 台北市康復之友協會：manual；
 - 台中市康復之友協會：manual；
+- 臺灣家連家精神健康教育協會：manual；
+- 伊甸基金會 活泉社區家庭支持中心：manual；

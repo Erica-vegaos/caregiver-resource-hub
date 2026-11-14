@@ -23,10 +23,14 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo('Asia/Taipei')
-VERSION = '1.1.3'
+VERSION = '1.1.4'
 HOSTS = {'mental-health.gov.taipei', 'www.heartlife.org.tw'}
 TAIPEI = 'https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss='
 HEART = 'https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308'
+DISCOVERY = json.loads((ROOT / 'config/discovery_sources.json').read_text())['sources'] if (ROOT / 'config/discovery_sources.json').exists() else []
+HOSTS |= {urlsplit(d['list_url']).hostname for d in DISCOVERY}
+# Without a site-specific pattern, only links whose label looks like an activity are kept.
+ACTIVITY_LABEL = re.compile(r'活動|講座|團體|課程|聚會|工作坊|座談|分享會|家屬|照顧者')
 SOURCES = [
     {'id': 'S01', 'name': '臺北市社區心理衛生中心', 'mode': 'http', 'list_url': 'https://mental-health.gov.taipei/ActiveList.aspx?n=6CCBECECB36BFE4E&sms=F62510C10F2670B1', 'seeds': [TAIPEI+'54D200EE367BA9FB', TAIPEI+'C6AD3B6D5810F476']},
     {'id': 'S05', 'name': '台北市心生活協會', 'mode': 'http', 'list_url': None, 'seeds': [HEART]},
@@ -397,6 +401,26 @@ def discover(parser,base_url):
         found[url]={'url':url,'title':label,'status':'discovered_not_parsed'}
     return list(found.values())
 
+def discover_links(parser, source, known_urls, limit=30):
+    """Same-host links from a list page, as unparsed review candidates (never published)."""
+    host = urlsplit(source['list_url']).hostname
+    pattern = re.compile(source['link_pattern']) if source.get('link_pattern') else None
+    found = {}
+    for href, label in parser.links:
+        label = re.sub(r'\s+', ' ', label).strip()
+        if len(label) < 4 or href.startswith(('mailto:', 'tel:', 'javascript:', '#')):
+            continue
+        url = urljoin(source['list_url'], href).split('#')[0]
+        p = urlsplit(url)
+        if p.scheme != 'https' or p.hostname != host or url in known_urls or url == source['list_url']:
+            continue
+        if pattern.search(url) if pattern else ACTIVITY_LABEL.search(label):
+            found.setdefault(url, {'url': url, 'title': label[:120], 'status': 'discovered_not_parsed', 'source_id': source['id']})
+        if len(found) >= limit:
+            break
+    return list(found.values())
+
+
 def apply_media_registry(records):
     registry = load_optional(ROOT / 'data/media_registry.json', {'posters': []})
     entries = {item['event_id']: item for item in registry.get('posters', [])}
@@ -488,6 +512,17 @@ def build(refresh=False, now=None, fixture_dir=None):
                     retained = copy.deepcopy(e); retained['freshness'] = 'unavailable'; current.append(retained)
             if state['errors']:
                 state['status'] = 'partial' if state['parsed_pages'] else 'failed'
+            health.append(state)
+        known = {e.get('source_url') for e in old['events']} | {e.get('source_url') for e in current}
+        for source in DISCOVERY:
+            state = {'id': source['id'], 'name': source['name'], 'method': '列表頁探索（只產生待審候選）',
+                     'attempted_at': checked, 'status': 'success', 'errors': [], 'parsed_pages': 0, 'discovery': 'list_page'}
+            try:
+                p, _ = fetch(source['list_url'])
+                discovered += discover_links(p, source, known)
+                state['parsed_pages'] = 1
+            except Exception as exc:
+                state['status'] = 'failed'; state['errors'].append('list: ' + str(exc))
             health.append(state)
         adapter_ids = {s['id'] for s in SOURCES}
         current += [e for e in old['events'] if e.get('source_id') not in adapter_ids]

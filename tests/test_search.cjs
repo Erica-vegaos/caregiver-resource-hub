@@ -105,13 +105,13 @@ test('invalid topics fail closed and string true does not opt into general suppo
  assert.deepEqual(S.search(topicRows,{topic:'schizophrenia',includeGeneral:'true'},now).map(x=>x.id),['sch']);
 });
 
-test('current shipped coverage supports needs rather than invented disease-specific entry',()=>{
+test('current shipped coverage: needs counts and only explicitly named disease topics',()=>{
  const D=require('../data/events.json');
  const counts=Object.fromEntries(['exchange','learn','relax','community'].map(need=>[need,S.search(D.events,{need},now).length]));
- assert.deepEqual(counts,{exchange:3,learn:2,relax:2,community:1});
- assert.equal(S.search(D.events,{topic:'schizophrenia'},now).length,0);
- assert.equal(S.search(D.events,{topic:'depression'},now).length,0);
- assert.equal(S.search(D.events,{topic:'bipolar'},now).length,0);
+ assert.deepEqual(counts,{exchange:5,learn:6,relax:2,community:1});
+ // Only the 家連家 course names these diagnoses; general family events must not leak in.
+ for (const topic of ['schizophrenia','depression','bipolar'])
+  assert.deepEqual(S.search(D.events,{topic},now).map(x=>x.id),['L01:edu115:2026-11-21']);
 });
 test('community events do not become exercise and relaxation events',()=>{
  const carnival=e({title:'心光燦爛嘉年華',category:'紓壓活動',tags:['共融']});
