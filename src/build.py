@@ -21,7 +21,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo('Asia/Taipei')
-VERSION = '1.1.0'
+VERSION = '1.1.1'
 HOSTS = {'mental-health.gov.taipei', 'www.heartlife.org.tw'}
 TAIPEI = 'https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss='
 HEART = 'https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308'
@@ -214,8 +214,9 @@ def validate_event(event):
             raise ValueError('missing_required:' + field)
     validate_eligibility(e['eligibility'])
     public_https_url(e.get('source_url'))
-    if e.get('registration_url'):
-        public_https_url(e['registration_url'])
+    for optional_url in ('registration_url','poster_url'):
+        if e.get(optional_url):
+            public_https_url(e[optional_url])
     if e.get('caregiver_eligible') is not True:
         raise ValueError('caregiver_eligibility_unconfirmed')
     cities = {'台北市', '新北市', '桃園市', '台中市', '台南市', '高雄市', '基隆市', '新竹市', '嘉義市', '新竹縣', '苗栗縣', '彰化縣', '南投縣', '雲林縣', '嘉義縣', '屏東縣', '宜蘭縣', '花蓮縣', '台東縣', '澎湖縣', '金門縣', '連江縣'}

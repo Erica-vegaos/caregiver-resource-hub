@@ -65,7 +65,10 @@
           "locator": "地點欄位；人工對照"
         }
       ],
-      "review_reasons": []
+      "review_reasons": [],
+      "poster_url": "https://www.tpmra.org.tw/sites/default/files/jia_zhi_huo_dong_nei_ye_tu_.jpg",
+      "poster_source_url": "https://www.tpmra.org.tw/node/502",
+      "poster_link_checked_at": "2026-11-14T13:01:55+08:00"
     },
     {
       "id": "S03:161:2026-12-12",
@@ -132,7 +135,10 @@
           "locator": "地點欄位；人工對照"
         }
       ],
-      "review_reasons": []
+      "review_reasons": [],
+      "poster_url": "https://www.ntcami.org.tw/sites/default/files/styles/event-node/public/civicrm/custom/%E5%AE%B6%E7%85%A7_115%E5%B9%B4%E5%AE%B6%E5%B1%AC%E8%81%9A%E6%9C%83_P79u4277.jpg?itok=iyskMVAL",
+      "poster_source_url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+      "poster_link_checked_at": "2026-11-14T13:01:55+08:00"
     }
   ],
   "resources": [

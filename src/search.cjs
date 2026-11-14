@@ -1,4 +1,4 @@
-/* 聽見你搜尋 v1.1.0 — guided topic matching; no health-profile storage. */
+/* 聽見你搜尋 v1.1.1 — needs reflect actual coverage; disease scope is separate. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -85,6 +85,17 @@
     if (info.excluded.includes(wanted)) return false;
     return wanted === 'general' ? info.general : info.topics.includes(wanted) || (includeGeneral && info.general);
   }
+  const NEEDS = {exchange:'家屬交流與支持', learn:'照顧經驗與資源講座', relax:'運動與紓壓', community:'共融與休閒', all:'先看看全部'};
+  function needMatch(event, wanted) {
+    if (!wanted || wanted === 'all') return true;
+    const text=normalize([event.title,...(event.tags||[])].join(' '));
+    const community=/共融|嘉年華|園遊會/.test(text);
+    if (wanted==='community') return community;
+    if (wanted==='relax') return !community && categoryMatch(event.category,'紓壓活動');
+    if (wanted==='exchange') return categoryMatch(event.category,'支持團體');
+    if (wanted==='learn') return categoryMatch(event.category,'講座與交流') || categoryMatch(event.category,'課程與工作坊');
+    return false;
+  }
   function search(events, filters = {}, now = Date.now(), savedIds = []) {
     if (filters.from && filters.to && filters.from > filters.to) return [];
     const saved = savedIds instanceof Set ? savedIds : new Set(savedIds);
@@ -96,6 +107,7 @@
       if (city !== 'all' && normalize(event.city) !== city) return false;
       if (filters.mode && filters.mode !== 'all' && event.mode !== filters.mode && !(filters.mode === '線上' && event.mode === '混合')) return false;
       if (!categoryMatch(event.category, filters.category)) return false;
+      if (!needMatch(event, filters.need)) return false;
       if (!topicMatch(event, filters.topic, filters.includeGeneral === true)) return false;
       const d = derived(event, now), start = Date.parse(event.start), end = endTime(event);
       const cancelled = event.event_status === 'cancelled';
@@ -125,5 +137,5 @@
       return Date.parse(a.start) - Date.parse(b.start) || String(a.id).localeCompare(String(b.id));
     });
   }
-  return { version:'1.1.0', CITIES, TOPICS, topicInfo, topicMatch, normalize, terms, matchText, relevance, derived, taipeiDate, search };
+  return { version:'1.1.1', CITIES, TOPICS, NEEDS, needMatch, topicInfo, topicMatch, normalize, terms, matchText, relevance, derived, taipeiDate, search };
 });

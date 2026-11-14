@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "built_at": "2026-11-14T12:43:36+08:00",
+  "version": "1.1.1",
+  "built_at": "2026-11-14T13:01:55+08:00",
   "data_checked_at": "2026-11-14T01:41:07+08:00",
   "events": [
     {
@@ -787,7 +787,10 @@
           "checked_at": "2026-11-14T01:41:07+08:00",
           "locator": "官方活動正文；人工核對"
         }
-      ]
+      ],
+      "poster_url": "https://www.mratc.org.tw/UpLoad/%E9%81%8B%E5%8B%95%E7%B4%93%E5%A3%93%E5%AE%A3%E5%82%B3_20260917103842.jpg",
+      "poster_source_url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+      "poster_link_checked_at": "2026-11-14T13:01:55+08:00"
     },
     {
       "id": "N01:carnival329:2026-11-22",
@@ -1011,7 +1014,10 @@
           "checked_at": "2026-11-14T01:41:07+08:00",
           "locator": "官方活動正文；人工核對"
         }
-      ]
+      ],
+      "poster_url": "https://www.mratc.org.tw/UpLoad/%E9%81%8B%E5%8B%95%E7%B4%93%E5%A3%93%E5%AE%A3%E5%82%B3_20260917103842.jpg",
+      "poster_source_url": "https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53",
+      "poster_link_checked_at": "2026-11-14T13:01:55+08:00"
     },
     {
       "id": "S05:308:2026-12-01",
@@ -1160,7 +1166,10 @@
       "review_reasons": [
         "費用未註明",
         "報名名額與狀態未確認"
-      ]
+      ],
+      "poster_url": "https://www.tpmra.org.tw/sites/default/files/jia_zhi_huo_dong_nei_ye_tu_.jpg",
+      "poster_source_url": "https://www.tpmra.org.tw/node/502",
+      "poster_link_checked_at": "2026-11-14T13:01:55+08:00"
     },
     {
       "id": "S03:161:2026-12-12",
@@ -1230,7 +1239,10 @@
       "review_reasons": [
         "費用未註明",
         "報名名額與狀態未確認"
-      ]
+      ],
+      "poster_url": "https://www.ntcami.org.tw/sites/default/files/styles/event-node/public/civicrm/custom/%E5%AE%B6%E7%85%A7_115%E5%B9%B4%E5%AE%B6%E5%B1%AC%E8%81%9A%E6%9C%83_P79u4277.jpg?itok=iyskMVAL",
+      "poster_source_url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
+      "poster_link_checked_at": "2026-11-14T13:01:55+08:00"
     }
   ],
   "sources": [

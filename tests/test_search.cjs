@@ -104,3 +104,22 @@ test('invalid topics fail closed and string true does not opt into general suppo
  assert.equal(S.search(topicRows,{topic:'unrecognized'},now).length,0);
  assert.deepEqual(S.search(topicRows,{topic:'schizophrenia',includeGeneral:'true'},now).map(x=>x.id),['sch']);
 });
+
+test('current shipped coverage supports needs rather than invented disease-specific entry',()=>{
+ const D=require('../data/events.json');
+ const counts=Object.fromEntries(['exchange','learn','relax','community'].map(need=>[need,S.search(D.events,{need},now).length]));
+ assert.deepEqual(counts,{exchange:3,learn:2,relax:2,community:1});
+ assert.equal(S.search(D.events,{topic:'schizophrenia'},now).length,0);
+ assert.equal(S.search(D.events,{topic:'depression'},now).length,0);
+ assert.equal(S.search(D.events,{topic:'bipolar'},now).length,0);
+});
+test('community events do not become exercise and relaxation events',()=>{
+ const carnival=e({title:'心光燦爛嘉年華',category:'紓壓活動',tags:['共融']});
+ assert.equal(S.needMatch(carnival,'community'),true);assert.equal(S.needMatch(carnival,'relax'),false);
+ assert.equal(S.needMatch(carnival,'unknown'),false);
+});
+test('needs intersect with city and do not imply registration remains open',()=>{
+ const D=require('../data/events.json');
+ assert.equal(S.search(D.events,{need:'exchange',city:'台北市'},now).length,2);
+ assert.equal(S.search(D.events,{need:'relax',registration:'open'},now).length,0);
+});
