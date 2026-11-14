@@ -1,6 +1,6 @@
 {
-  "version": "1.1.1",
-  "built_at": "2026-11-14T13:01:55+08:00",
+  "version": "1.1.2",
+  "built_at": "2026-11-14T13:46:43+08:00",
   "data_checked_at": "2026-11-14T01:41:07+08:00",
   "events": [
     {
@@ -654,8 +654,8 @@
       "mode": "實體",
       "audience": "家屬／照顧者",
       "caregiver_eligible": true,
-      "fee_amount": null,
-      "fee_text": "原文未註明",
+      "fee_amount": 0,
+      "fee_text": "海報標示免費",
       "registration_status": "unknown",
       "event_status": "scheduled",
       "publication_status": "listed_with_caveats",
@@ -692,6 +692,15 @@
           "checked_at": "2026-11-12T20:22:29+08:00",
           "content_hash": "4321b337287ad7f3e9c2412305aacec656c1ec82446218eb697c226d4013fa76",
           "locator": "正文"
+        },
+        {
+          "field": "fee",
+          "quote": "費用 免費",
+          "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
+          "locator": "使用者提供的原公告海報副本；費用欄",
+          "checked_at": "2026-11-14T13:41:46+08:00",
+          "content_hash": "c0a7391b1f35746ab0aceaeb44c02e81dd67462d68eec6767b9a0697a8fcfc92",
+          "method": "provided_poster_review"
         }
       ],
       "notes": [
@@ -700,7 +709,6 @@
         "原文寫至額滿為止，本入口沒有剩餘名額資料。"
       ],
       "review_reasons": [
-        "費用未註明",
         "報名名額與狀態未確認"
       ],
       "freshness": "fresh",
@@ -711,7 +719,11 @@
       "eligibility": "居住臺北市的 精障者家屬/照顧者 優先。",
       "registration_text": "即日起至額滿為止，錄取 8 人",
       "contact": "請見原單位公告",
-      "summary": "與有相似照顧經驗的家屬交流，認識支持資源，也為自己留一段被理解的時間。"
+      "summary": "與有相似照顧經驗的家屬交流，認識支持資源，也為自己留一段被理解的時間。",
+      "poster_asset": "assets/posters/caregiver-daily-20261115.jpg",
+      "poster_capture_method": "user_supplied_original_poster_copy",
+      "poster_checked_at": "2026-11-14T13:41:46+08:00",
+      "poster_source_url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB"
     },
     {
       "id": "N01:sport53:2026-11-17",
@@ -860,7 +872,11 @@
           "checked_at": "2026-11-14T01:41:07+08:00",
           "locator": "官方活動正文；人工核對"
         }
-      ]
+      ],
+      "poster_asset": "assets/posters/community-carnival-20261122.jpg",
+      "poster_capture_method": "user_supplied_original_poster_copy",
+      "poster_checked_at": "2026-11-14T13:41:46+08:00",
+      "poster_source_url": "https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68"
     },
     {
       "id": "S01:C6AD3B6D5810F476",

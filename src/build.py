@@ -12,6 +12,8 @@ import ipaddress
 import unicodedata
 import re
 import sys
+import shutil
+from media import extract_media_candidates
 import urllib.request
 from datetime import datetime, timedelta
 from html.parser import HTMLParser
@@ -21,7 +23,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo('Asia/Taipei')
-VERSION = '1.1.1'
+VERSION = '1.1.2'
 HOSTS = {'mental-health.gov.taipei', 'www.heartlife.org.tw'}
 TAIPEI = 'https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss='
 HEART = 'https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308'
@@ -34,8 +36,12 @@ class Text(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.parts, self.links, self.headers = [], [], []
+        self.html = ''
         self.skip = 0
         self.link, self.header = None, None
+    def feed(self, data):
+        self.html += data
+        super().feed(data)
     def handle_starttag(self, tag, attrs):
         if tag in ('script','style','noscript'): self.skip += 1
         if tag == 'a': self.link = [dict(attrs).get('href',''), []]
@@ -391,6 +397,36 @@ def discover(parser,base_url):
         found[url]={'url':url,'title':label,'status':'discovered_not_parsed'}
     return list(found.values())
 
+def apply_media_registry(records):
+    registry = load_optional(ROOT / 'data/media_registry.json', {'posters': []})
+    entries = {item['event_id']: item for item in registry.get('posters', [])}
+    for event in records:
+        item = entries.get(event.get('id'))
+        if not item or item.get('source_url') != event.get('source_url'):
+            continue
+        asset = item.get('poster_asset', '')
+        if not re.fullmatch(r'assets/posters/[a-z0-9-]+\.(?:jpg|png|webp)', asset):
+            raise ValueError('invalid_poster_asset')
+        local = ROOT / asset
+        if not local.is_file() or hashlib.sha256(local.read_bytes()).hexdigest() != item.get('sha256'):
+            raise ValueError('poster_asset_missing_or_changed')
+        event['poster_asset'] = asset
+        event['poster_capture_method'] = item.get('capture_method')
+        event['poster_checked_at'] = item.get('observed_at')
+        event['poster_source_url'] = item['source_url']
+        fact = item.get('fee_fact')
+        if fact:
+            if type(fact.get('amount')) not in (int,float) or fact['amount'] < 0:
+                raise ValueError('invalid_poster_fee')
+            event['fee_amount'] = fact['amount']
+            event['fee_text'] = fact['text']
+            ev = {'field':'fee','quote':fact['quote'],'url':fact['source_url'],
+                  'locator':fact['locator'],'checked_at':item['observed_at'],
+                  'content_hash':item['sha256'],'method':'provided_poster_review'}
+            event['evidence'] = [v for v in event['evidence'] if v.get('method')!='provided_poster_review'] + [ev]
+    return records
+
+
 def build(refresh=False, now=None, fixture_dir=None):
     now = now or datetime.now(TZ)
     if now.tzinfo is None:
@@ -418,6 +454,13 @@ def build(refresh=False, now=None, fixture_dir=None):
                 try:
                     p, digest = fetch(url)
                     rows = (parse_taipei if source['id'] == 'S01' else parse_heart)(p, url, checked, digest)
+                    for row in rows:
+                        row['poster_candidates'] = extract_media_candidates(p.html, url, row['title'], media_hosts=('www-ws.gov.taipei',))
+                        # Only exact title match inside content may auto-select; unclear images stay candidates.
+                        matched = [v for v in row['poster_candidates'] if v['title_match'] and v['in_content']]
+                        if len(matched) == 1:
+                            row['poster_url'] = matched[0]['url']
+                            row['poster_source_url'] = url
                     # Do not replace a last-good occurrence with a malformed parse.
                     for row in rows:
                         validate_event(row)
@@ -444,7 +487,7 @@ def build(refresh=False, now=None, fixture_dir=None):
         health = old.get('sources', [])
         discovered = old.get('discovered', [])
     curated = manual.get('events', []) + national.get('events', [])
-    current = overlay_records(current, curated)
+    current = apply_media_registry(overlay_records(current, curated))
     health = merge_sources(health, manual.get('sources', []), national.get('sources', []))
     events, quarantine, duplicates = prepare_events(current, now)
     changes = compare(old.get('events', []), events)
@@ -478,12 +521,21 @@ def build(refresh=False, now=None, fixture_dir=None):
     for item in discovered:
         if item['url'] not in known_urls:
             review += f"- {item['title']}：{item['url']}（資格與活動類型尚未判定；不自動發布）\n"
+    review += '\n## 原公告圖片檢查\n\n'
+    for event in events:
+        if aware_datetime(event['end'], 'end') >= now and not event.get('poster_asset') and not event.get('poster_url'):
+            candidates = event.get('poster_candidates', [])
+            review += '- ' + event['title'] + '：' + ('有候選待確認' if candidates else '未取得海報') + '。來源：' + event['source_url'] + '\n'
+            for item in candidates[:3]:
+                review += '  - ' + item['url'] + '（' + item['kind'] + '）\n'
     review += '\n## 來源狀況\n\n' + '\n'.join(f"- {s['name']}：{s['status']}；" + '；'.join(s.get('errors', [])) for s in health)
     (ROOT / 'data/review.md').write_text(review + '\n')
     embedded = json.dumps(payload, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     template = (ROOT / 'templates/index.html').read_text()
     search_path = ROOT / 'src/search.cjs'
     search_js = search_path.read_text() if search_path.exists() else ''
+    if (ROOT / 'assets/posters').exists():
+        shutil.copytree(ROOT / 'assets/posters', ROOT / 'dist/assets/posters', dirs_exist_ok=True)
     (ROOT / 'dist/index.html').write_text(template.replace('__DATA_JSON__', embedded).replace('__SEARCH_JS__', search_js))
     return summary
 
