@@ -596,6 +596,14 @@ def build(refresh=False, now=None, fixture_dir=None):
         target = ROOT / 'dist' / asset
         if not target.exists() or target.read_bytes() != (ROOT / asset).read_bytes():
             shutil.copyfile(ROOT / asset, target)
+    # Brand files referenced by the template (favicon, touch icon, header mark).
+    brand_dir = ROOT / 'assets/brand/hear-you-v1.1'
+    if brand_dir.exists():
+        for name in ('hear-you-favicon-v1.1.ico', 'hear-you-icon-32-v1.1.png', 'hear-you-icon-180-v1.1.png', 'hear-you-mark-96-v1.1.webp'):
+            target = ROOT / 'dist/assets/brand/hear-you-v1.1' / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            if not target.exists() or target.read_bytes() != (brand_dir / name).read_bytes():
+                shutil.copyfile(brand_dir / name, target)
     page = template.replace('__DATA_JSON__', embedded).replace('__SEARCH_JS__', search_js)
     index = ROOT / 'dist/index.html'
     if not index.exists() or index.read_text() != page:
