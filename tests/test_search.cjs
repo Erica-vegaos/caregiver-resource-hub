@@ -123,3 +123,12 @@ test('needs intersect with city and do not imply registration remains open',()=>
  assert.equal(S.search(D.events,{need:'exchange',city:'台北市'},now).length,2);
  assert.equal(S.search(D.events,{need:'relax',registration:'open'},now).length,0);
 });
+
+test('unmapped valid activities go to other without hiding or reclassifying known needs',()=>{
+ const other=e({title:'權益資訊服務',category:'權益諮詢',summary:''});
+ assert.equal(S.needMatch(other,'other'),true);
+ assert.equal(S.needMatch(topicRows[0],'other'),false);
+ assert.equal(S.search([other],{need:'other'},now).length,1);
+ const D=require('../data/events.json');
+ assert.equal(S.search(D.events,{need:'other'},now).length,0);
+});

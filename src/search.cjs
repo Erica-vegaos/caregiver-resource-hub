@@ -1,4 +1,4 @@
-/* 聽見你搜尋 v1.1.1 — needs reflect actual coverage; disease scope is separate. */
+/* 聽見你搜尋 v1.1.2 — needs reflect actual coverage; disease scope is separate. */
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -85,7 +85,7 @@
     if (info.excluded.includes(wanted)) return false;
     return wanted === 'general' ? info.general : info.topics.includes(wanted) || (includeGeneral && info.general);
   }
-  const NEEDS = {exchange:'家屬交流與支持', learn:'照顧經驗與資源講座', relax:'運動與紓壓', community:'共融與休閒', all:'先看看全部'};
+  const NEEDS = {exchange:'家屬交流', learn:'照顧講座', relax:'運動紓壓', community:'共融休閒', other:'其他活動', all:'先看看全部'};
   function needMatch(event, wanted) {
     if (!wanted || wanted === 'all') return true;
     const text=normalize([event.title,...(event.tags||[])].join(' '));
@@ -94,6 +94,7 @@
     if (wanted==='relax') return !community && categoryMatch(event.category,'紓壓活動');
     if (wanted==='exchange') return categoryMatch(event.category,'支持團體');
     if (wanted==='learn') return categoryMatch(event.category,'講座與交流') || categoryMatch(event.category,'課程與工作坊');
+    if (wanted==='other') return !['exchange','learn','relax','community'].some(need=>needMatch(event,need));
     return false;
   }
   function search(events, filters = {}, now = Date.now(), savedIds = []) {
@@ -137,5 +138,5 @@
       return Date.parse(a.start) - Date.parse(b.start) || String(a.id).localeCompare(String(b.id));
     });
   }
-  return { version:'1.1.1', CITIES, TOPICS, NEEDS, needMatch, topicInfo, topicMatch, normalize, terms, matchText, relevance, derived, taipeiDate, search };
+  return { version:'1.1.2', CITIES, TOPICS, NEEDS, needMatch, topicInfo, topicMatch, normalize, terms, matchText, relevance, derived, taipeiDate, search };
 });
