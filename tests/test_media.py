@@ -18,6 +18,11 @@ class MediaDiscovery(unittest.TestCase):
         self.assertEqual(items[0]['url'],'https://official.example/poster-full.jpg')
         self.assertTrue(items[0]['title_match']);self.assertTrue(items[0]['in_content'])
         self.assertEqual(len(items),1)
+    def test_share_buttons_and_site_badges_are_excluded(self):
+        items=self.media('<meta property="og:image" content="/001/Upload/FBsharelogo.jpg"><article>'
+            '<img src="/TW/Images/Layout/SocialNetwork/line.png"><img src="/img/fb-icon.png">'
+            '<img src="/upload/online-poster.jpg" alt="活動海報"></article>')
+        self.assertEqual([i['url'] for i in items],['https://official.example/upload/online-poster.jpg'])
     def test_lazy_srcset_is_discovered_without_guessing_og_image(self):
         items=self.media('<meta property="og:image" content="/preview.jpg"><main><img src="data:image/gif;base64,xyz" data-srcset="/small.jpg 300w, /poster-large.jpg 1200w" alt="活動海報"></main>')
         self.assertEqual(items[0]['url'],'https://official.example/poster-large.jpg')

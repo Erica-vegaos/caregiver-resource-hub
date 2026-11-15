@@ -32,12 +32,15 @@ jobs:
           python - <<'EOF' >> "$GITHUB_OUTPUT"
           import json
           s = json.load(open('data/run_summary.json'))
-          failed = [x['name'] for x in s['sources'] if x.get('status') != 'success']
+          # Manual sources are curated by hand and never fetched; they are not failures.
+          failed = [x['name'] for x in s['sources'] if x.get('status') not in ('success', 'manual')]
+          manual = sum(x.get('status') == 'manual' for x in s['sources'])
           print(f"changes={s['changes']}")
           print(f"future={s['future']}")
           print(f"quarantined={s['quarantined']}")
           print(f"discovered={s['discovered_unparsed']}")
           print(f"failed={'、'.join(failed) or '無'}")
+          print(f"manual={manual}")
           EOF
       - uses: actions/upload-artifact@v4
         with:
@@ -70,5 +73,6 @@ jobs:
             - 隔離候選：${{ steps.summary.outputs.quarantined }}
             - 列表發現未解析：${{ steps.summary.outputs.discovered }}
             - 抓取失敗來源：${{ steps.summary.outputs.failed }}
+            - 手動維護來源（不爬取）：${{ steps.summary.outputs.manual }}
 
             合併前請看 `data/review.md` 的待確認項目。測試已在此 workflow 通過。

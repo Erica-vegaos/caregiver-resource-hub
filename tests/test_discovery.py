@@ -29,6 +29,18 @@ class Discovery(unittest.TestCase):
         rows = discover_links(page('<a href="/news/1">家屬支持團體開課</a><a href="/news/2">年度財報公告</a><a href="tel:0222">家屬專線電話</a>'), src, set())
         self.assertEqual([r['title'] for r in rows], ['家屬支持團體開課'])
 
+    def test_recaps_and_past_years_are_dropped(self):
+        from datetime import datetime
+        src = {'id': 'D-K', 'name': 'k', 'list_url': 'https://www.ksdreammaking.org/'}
+        rows = discover_links(page(
+            '<a href="/a">113年2月24日家屬座談會圓滿完成</a>'
+            '<a href="/b">114年家屬支持團體招募</a>'
+            '<a href="/c">2025 照顧者講座</a>'
+            '<a href="/d">家屬講座活動回顧</a>'
+            '<a href="/e">115年家屬支持團體招募</a>'
+            '<a href="/f">家屬聚會報名中</a>'), src, set(), today=datetime(2026, 11, 15))
+        self.assertEqual([r['title'] for r in rows], ['115年家屬支持團體招募', '家屬聚會報名中'])
+
     def test_configured_list_pages_are_fetchable_hosts(self):
         self.assertTrue(DISCOVERY)
         for source in DISCOVERY:

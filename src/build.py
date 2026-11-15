@@ -31,6 +31,17 @@ DISCOVERY = json.loads((ROOT / 'config/discovery_sources.json').read_text())['so
 HOSTS |= {urlsplit(d['list_url']).hostname for d in DISCOVERY}
 # Without a site-specific pattern, only links whose label looks like an activity are kept.
 ACTIVITY_LABEL = re.compile(r'活動|講座|團體|課程|聚會|工作坊|座談|分享會|家屬|照顧者')
+RECAP_LABEL = re.compile(r'圓滿|回顧|花絮|成果|紀實|剪影|側記')
+
+
+def past_listing(label, today=None):
+    """Recaps and titles naming an earlier year are history, not upcoming events."""
+    if RECAP_LABEL.search(label):
+        return True
+    year = (today or datetime.now(TZ)).year
+    years = [int(y) + 1911 for y in re.findall(r'(?<!\d)(1\d\d)\s*年', label)]
+    years += [int(y) for y in re.findall(r'(?<!\d)(20\d\d)(?!\d)', label)]
+    return bool(years) and max(years) < year
 SOURCES = [
     {'id': 'S01', 'name': '臺北市社區心理衛生中心', 'mode': 'http', 'list_url': 'https://mental-health.gov.taipei/ActiveList.aspx?n=6CCBECECB36BFE4E&sms=F62510C10F2670B1', 'seeds': [TAIPEI+'54D200EE367BA9FB', TAIPEI+'C6AD3B6D5810F476']},
     {'id': 'S05', 'name': '台北市心生活協會', 'mode': 'http', 'list_url': None, 'seeds': [HEART]},
@@ -391,24 +402,24 @@ def compare(previous,current):
             if changes:result.append({'id':e['id'],'type':'changed','fields':changes})
     return result
 
-def discover(parser,base_url):
+def discover(parser,base_url,today=None):
     found={}
     for href,label in parser.links:
         # Titles such as "一起接住彼此" do not mention caregivers: retain them
         # as unclassified candidates rather than losing them in a keyword filter.
-        if 'Active_Content.aspx' not in href or label in ('我要報名','立即報名') or not label:continue
+        if 'Active_Content.aspx' not in href or label in ('我要報名','立即報名') or not label or past_listing(label,today):continue
         url=urljoin(base_url,href);validate_url(url)
         found[url]={'url':url,'title':label,'status':'discovered_not_parsed'}
     return list(found.values())
 
-def discover_links(parser, source, known_urls, limit=30):
+def discover_links(parser, source, known_urls, limit=30, today=None):
     """Same-host links from a list page, as unparsed review candidates (never published)."""
     host = urlsplit(source['list_url']).hostname
     pattern = re.compile(source['link_pattern']) if source.get('link_pattern') else None
     found = {}
     for href, label in parser.links:
         label = re.sub(r'\s+', ' ', label).strip()
-        if len(label) < 4 or href.startswith(('mailto:', 'tel:', 'javascript:', '#')):
+        if len(label) < 4 or href.startswith(('mailto:', 'tel:', 'javascript:', '#')) or past_listing(label, today):
             continue
         url = urljoin(source['list_url'], href).split('#')[0]
         p = urlsplit(url)
@@ -479,7 +490,7 @@ def build(refresh=False, now=None, fixture_dir=None):
             if source['list_url']:
                 try:
                     p, _ = fetch(source['list_url'])
-                    discovered += discover(p, source['list_url'])
+                    discovered += discover(p, source['list_url'], now)
                     state['discovery'] = 'first_list_page_only'
                 except Exception as exc:
                     state['errors'].append('list: ' + str(exc)); state['discovery'] = 'failed'
@@ -519,7 +530,7 @@ def build(refresh=False, now=None, fixture_dir=None):
                      'attempted_at': checked, 'status': 'success', 'errors': [], 'parsed_pages': 0, 'discovery': 'list_page'}
             try:
                 p, _ = fetch(source['list_url'])
-                discovered += discover_links(p, source, known)
+                discovered += discover_links(p, source, known, today=now)
                 state['parsed_pages'] = 1
             except Exception as exc:
                 state['status'] = 'failed'; state['errors'].append('list: ' + str(exc))
