@@ -6,6 +6,8 @@ from urllib.parse import urljoin, urlsplit, unquote
 RASTER = re.compile(r'\.(?:jpe?g|png|webp|gif)(?:$|[?#])', re.I)
 POSTER = re.compile(r'海報|簡章|招生|活動圖|宣傳|poster|flyer', re.I)
 CHROME = re.compile(r'(?:^|[\s_./-])(?:nav|footer|header|sidebar|logo|banner|share|icon|tracking)(?:$|[\s_./-])|網站標誌|分享按鈕', re.I)
+# Share buttons and site badges, e.g. .../SocialNetwork/line.png, /Upload/FBsharelogo.jpg
+SOCIAL = re.compile(r'/social[^/]*/|/(?:line|fb|facebook|twitter|instagram|ig|youtube)(?:[-_]?(?:icon|btn|button|share))?\.\w+$|share|logo', re.I)
 CONTENT = re.compile(r'content|article|editor|detail|正文|活動內容', re.I)
 VOID = {'img','meta','br','hr','input','link','source','area','embed','wbr','param','track','col','base'}
 
@@ -65,7 +67,7 @@ class Media(HTMLParser):
         elif tag=='meta' and a.get('property','').lower()=='og:image':
             raw=a.get('content','');kind='social_preview';in_content=False
         url=image_url(raw,self.base,self.hosts)
-        if url and not excluded and not CHROME.search(unquote(url)+' '+alt):
+        if url and not excluded and not CHROME.search(unquote(url)+' '+alt) and not SOCIAL.search(unquote(urlsplit(url).path)):
             normalized=lambda s:re.sub(r'[\W_]+','',s)
             title=normalized(self.title)
             matching=bool(title and len(title)>=4 and title in normalized(alt))
