@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-11-16T14:14:24+08:00",
+  "built_at": "2026-11-16T15:27:48+08:00",
   "events": 22,
   "future": 13,
   "sources": [
@@ -128,10 +128,10 @@
       "errors": []
     }
   ],
-  "changes": 1,
+  "changes": 0,
   "quarantined": 0,
   "duplicates_removed": 0,
   "discovered_unparsed": 32,
-  "registry_sources": 26,
+  "registry_sources": 27,
   "coverage": "nationwide search; partial verified sources; manual national records plus configured HTTP adapters"
 }

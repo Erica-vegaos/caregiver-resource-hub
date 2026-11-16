@@ -1,6 +1,6 @@
 {
   "version": "1.1.4",
-  "built_at": "2026-11-16T14:14:24+08:00",
+  "built_at": "2026-11-16T15:27:48+08:00",
   "data_checked_at": "2026-11-16T14:14:24+08:00",
   "events": [
     {
@@ -1828,6 +1828,17 @@
       "checked_at": "2026-11-14T01:41:07+08:00",
       "verification": "directory_link",
       "evidence_url": "https://www.tamiroc.org.tw/about/8"
+    },
+    {
+      "id": "NREG-FREC",
+      "name": "臺北市家庭復元培力中心（廣慈博愛園區）",
+      "city": "台北市",
+      "url": "https://www.facebook.com/frec.taipei/",
+      "status": "manual",
+      "note": "社會局委託台北市康復之友協會辦理，115年9月起營運，提供精神障礙者家屬支持、知能培力與經驗分享；地址：信義區福德街84巷30號5樓。活動公告在粉專，需人工查看。",
+      "checked_at": "2026-11-16T12:00:00+08:00",
+      "verification": "content",
+      "evidence_url": "https://dosw.gov.taipei/cp.aspx?n=D8A63FC703E9CDF1&s=C9D31A7F9CC8B990"
     },
     {
       "id": "NREG02",
