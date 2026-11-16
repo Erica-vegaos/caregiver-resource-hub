@@ -1,12 +1,1 @@
-[
-  {
-    "id": "S01:54D200EE367BA9FB",
-    "type": "changed",
-    "fields": {
-      "event_status": {
-        "before": "scheduled",
-        "after": "ended"
-      }
-    }
-  }
-]
+[]
