@@ -105,13 +105,19 @@ test('invalid topics fail closed and string true does not opt into general suppo
  assert.deepEqual(S.search(topicRows,{topic:'schizophrenia',includeGeneral:'true'},now).map(x=>x.id),['sch']);
 });
 
-test('current shipped coverage: needs counts and only explicitly named disease topics',()=>{
+test('current shipped coverage: every upcoming event is reachable by a need; disease topics stay explicit',()=>{
+ // Shipped data changes daily (events end, new ones arrive), so check invariants, not fixed counts.
  const D=require('../data/events.json');
- const counts=Object.fromEntries(['exchange','learn','relax','community'].map(need=>[need,S.search(D.events,{need},now).length]));
- assert.deepEqual(counts,{exchange:5,learn:6,relax:2,community:1});
- // Only the 家連家 course names these diagnoses; general family events must not leak in.
- for (const topic of ['schizophrenia','depression','bipolar'])
-  assert.deepEqual(S.search(D.events,{topic},now).map(x=>x.id),['L01:edu115:2026-11-21']);
+ const ids=need=>S.search(D.events,{need},now).map(x=>x.id);
+ const all=ids('all');
+ assert.ok(all.length>0);
+ const reached=new Set(['exchange','learn','relax','community','other'].flatMap(ids));
+ assert.deepEqual(all.filter(id=>!reached.has(id)),[]);
+ // General family events must not leak into diagnosis topics.
+ const named={schizophrenia:/思覺失調|精神分裂/,depression:/憂鬱|重鬱/,bipolar:/躁鬱|雙相/};
+ for (const [topic,re] of Object.entries(named))
+  for (const e of S.search(D.events,{topic},now))
+   assert.match([e.title,e.summary,e.eligibility,e.category].join(' '),re,e.id);
 });
 test('community events do not become exercise and relaxation events',()=>{
  const carnival=e({title:'心光燦爛嘉年華',category:'紓壓活動',tags:['共融']});

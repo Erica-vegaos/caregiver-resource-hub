@@ -41,6 +41,15 @@ class Discovery(unittest.TestCase):
             '<a href="/f">家屬聚會報名中</a>'), src, set(), today=datetime(2026, 11, 15))
         self.assertEqual([r['title'] for r in rows], ['115年家屬支持團體招募', '家屬聚會報名中'])
 
+    def test_taichung_skips_menu_pages_and_previews(self):
+        src = next(s for s in DISCOVERY if s['id'] == 'D-MRATC')
+        rows = discover_links(page(
+            '<a href="/OnePage.aspx?mid=40">理監事介紹</a>'
+            '<a href="/OnePage.aspx?mid=58">求才公告</a>'
+            '<a href="//OnePage.aspx?mid=49&id=325&preview=Y">照顧者戶外喘息活動</a>'
+            '<a href="/OnePage.aspx?mid=49&id=325">照顧者戶外喘息活動</a>'), src, set())
+        self.assertEqual([r['url'] for r in rows], ['https://www.mratc.org.tw/OnePage.aspx?mid=49&id=325'])
+
     def test_configured_list_pages_are_fetchable_hosts(self):
         self.assertTrue(DISCOVERY)
         for source in DISCOVERY:

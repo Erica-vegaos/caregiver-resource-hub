@@ -3,7 +3,7 @@
   "sources": [
     {"id": "D-NTCAMI", "name": "新北市康復之友協會（活動列表）", "list_url": "https://www.ntcami.org.tw/events", "link_pattern": "civicrm/event/(?:info|register)"},
     {"id": "D-TPMRA", "name": "台北市康復之友協會", "list_url": "https://www.tpmra.org.tw/"},
-    {"id": "D-MRATC", "name": "台中市康復之友協會", "list_url": "https://www.mratc.org.tw/", "link_pattern": "Activity_1\\.aspx|OnePage\\.aspx"},
+    {"id": "D-MRATC", "name": "台中市康復之友協會", "list_url": "https://www.mratc.org.tw/", "link_pattern": "Activity_1\\.aspx|OnePage\\.aspx\\?mid=\\d+&id=\\d+$"},
     {"id": "D-TYPR", "name": "桃園市康復之友協會", "list_url": "https://www.typr.org.tw/ap/index.aspx"},
     {"id": "D-HEALTHYMIND", "name": "新竹市精神健康協會", "list_url": "https://www.healthymind.org.tw/"},
     {"id": "D-KSDREAM", "name": "高雄市築夢關懷協會", "list_url": "https://www.ksdreammaking.org/"}
