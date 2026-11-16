@@ -1,23 +1,25 @@
 {
-  "built_at": "2026-11-15T14:37:51+08:00",
+  "built_at": "2026-11-16T14:14:24+08:00",
   "events": 22,
-  "future": 14,
+  "future": 13,
   "sources": [
     {
       "id": "S01",
       "name": "臺北市社區心理衛生中心",
       "method": "HTTP / 規則解析",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
-      "status": "success",
-      "errors": [],
-      "parsed_pages": 2,
+      "attempted_at": "2026-11-16T14:14:24+08:00",
+      "status": "partial",
+      "errors": [
+        "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB: template_or_audience_not_recognized"
+      ],
+      "parsed_pages": 1,
       "discovery": "first_list_page_only"
     },
     {
       "id": "S05",
       "name": "台北市心生活協會",
       "method": "HTTP / 規則解析",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -27,7 +29,7 @@
       "id": "D-NTCAMI",
       "name": "新北市康復之友協會（活動列表）",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -37,7 +39,7 @@
       "id": "D-TPMRA",
       "name": "台北市康復之友協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -47,17 +49,19 @@
       "id": "D-MRATC",
       "name": "台中市康復之友協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
-      "status": "success",
-      "errors": [],
-      "parsed_pages": 1,
+      "attempted_at": "2026-11-16T14:14:24+08:00",
+      "status": "failed",
+      "errors": [
+        "list: HTTP Error 522: <none>"
+      ],
+      "parsed_pages": 0,
       "discovery": "list_page"
     },
     {
       "id": "D-TYPR",
       "name": "桃園市康復之友協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -67,7 +71,7 @@
       "id": "D-HEALTHYMIND",
       "name": "新竹市精神健康協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -77,7 +81,7 @@
       "id": "D-KSDREAM",
       "name": "高雄市築夢關懷協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -124,10 +128,10 @@
       "errors": []
     }
   ],
-  "changes": 0,
+  "changes": 1,
   "quarantined": 0,
   "duplicates_removed": 0,
-  "discovered_unparsed": 72,
+  "discovered_unparsed": 32,
   "registry_sources": 26,
   "coverage": "nationwide search; partial verified sources; manual national records plus configured HTTP adapters"
 }
