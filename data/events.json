@@ -1,7 +1,7 @@
 {
   "version": "1.1.4",
-  "built_at": "2026-11-15T14:37:51+08:00",
-  "data_checked_at": "2026-11-15T14:37:51+08:00",
+  "built_at": "2026-11-16T14:14:24+08:00",
+  "data_checked_at": "2026-11-16T14:14:24+08:00",
   "events": [
     {
       "id": "S05:308:2026-04-07",
@@ -12,11 +12,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -33,32 +33,32 @@
           "field": "date",
           "quote": "115年度；4月7日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -81,17 +81,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "id": "S05:308:2026-05-05",
@@ -102,11 +92,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -123,32 +113,32 @@
           "field": "date",
           "quote": "115年度；5月5日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -171,17 +161,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "id": "S05:308:2026-06-02",
@@ -192,11 +172,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -213,32 +193,32 @@
           "field": "date",
           "quote": "115年度；6月2日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -261,17 +241,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "id": "S05:308:2026-07-07",
@@ -282,11 +252,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -303,32 +273,32 @@
           "field": "date",
           "quote": "115年度；7月7日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -351,17 +321,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "id": "S05:308:2026-08-04",
@@ -372,11 +332,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -393,32 +353,32 @@
           "field": "date",
           "quote": "115年度；8月4日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -441,17 +401,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "id": "S05:308:2026-09-01",
@@ -462,11 +412,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -483,32 +433,32 @@
           "field": "date",
           "quote": "115年度；9月1日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -531,17 +481,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "id": "S05:308:2026-10-06",
@@ -552,11 +492,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -573,32 +513,32 @@
           "field": "date",
           "quote": "115年度；10月6日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -621,17 +561,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "id": "S05:308:2026-11-03",
@@ -642,11 +572,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -663,32 +593,32 @@
           "field": "date",
           "quote": "115年度；11月3日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -711,17 +641,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "id": "S01:54D200EE367BA9FB",
@@ -745,8 +665,8 @@
       "fee_amount": 0,
       "fee_text": "海報標示免費",
       "registration_status": "unknown",
-      "event_status": "scheduled",
-      "publication_status": "listed_with_caveats",
+      "event_status": "ended",
+      "publication_status": "archived",
       "registration_deadline": null,
       "evidence": [
         {
@@ -797,9 +717,10 @@
         "原文寫至額滿為止，本入口沒有剩餘名額資料。"
       ],
       "review_reasons": [
-        "報名名額與狀態未確認"
+        "報名名額與狀態未確認",
+        "來源需要重新查核"
       ],
-      "freshness": "fresh",
+      "freshness": "unavailable",
       "start": "2026-11-15T13:30:00+08:00",
       "end": "2026-11-15T16:30:00+08:00",
       "category": "講座與交流",
@@ -1130,11 +1051,11 @@
       "source_url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "f887b3469189fdb82eaab365d426d213437b49fe0d6fd5a3eee41f567ca8890e",
+      "content_hash": "5d70a3802ecf4896b02bdf138ce48e7d86aefabffdc785c9f243b0204d21f3be",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -1151,32 +1072,32 @@
           "field": "time",
           "quote": "115年11月22日（日）9 :30-12:30",
           "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "f887b3469189fdb82eaab365d426d213437b49fe0d6fd5a3eee41f567ca8890e",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "5d70a3802ecf4896b02bdf138ce48e7d86aefabffdc785c9f243b0204d21f3be",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "臺北市中正區心理衛生中心四樓多功能活動室（臺 北市中正區金山南路一段5號）",
           "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "f887b3469189fdb82eaab365d426d213437b49fe0d6fd5a3eee41f567ca8890e",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "5d70a3802ecf4896b02bdf138ce48e7d86aefabffdc785c9f243b0204d21f3be",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "居住臺北市的 精障者家屬/照顧者 優先。",
           "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "f887b3469189fdb82eaab365d426d213437b49fe0d6fd5a3eee41f567ca8890e",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "5d70a3802ecf4896b02bdf138ce48e7d86aefabffdc785c9f243b0204d21f3be",
           "locator": "正文"
         },
         {
           "field": "registration",
           "quote": "即日起至額滿為止，錄取 15 人",
           "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "f887b3469189fdb82eaab365d426d213437b49fe0d6fd5a3eee41f567ca8890e",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "5d70a3802ecf4896b02bdf138ce48e7d86aefabffdc785c9f243b0204d21f3be",
           "locator": "正文"
         }
       ],
@@ -1205,15 +1126,6 @@
           "kind": "body_image",
           "score": 3,
           "in_content": true,
-          "title_match": false,
-          "source_url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476"
-        },
-        {
-          "url": "https://www-ws.gov.taipei/001/Upload/FBsharelogo.jpg",
-          "alt": "",
-          "kind": "social_preview",
-          "score": 0,
-          "in_content": false,
           "title_match": false,
           "source_url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476"
         }
@@ -1369,11 +1281,11 @@
       "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
       "source_published_at": null,
       "source_modified_at": null,
-      "last_successful_fetch_at": "2026-11-15T14:37:51+08:00",
-      "last_content_checked_at": "2026-11-15T14:37:51+08:00",
-      "checked_at": "2026-11-15T14:37:51+08:00",
+      "last_successful_fetch_at": "2026-11-16T14:14:24+08:00",
+      "last_content_checked_at": "2026-11-16T14:14:24+08:00",
+      "checked_at": "2026-11-16T14:14:24+08:00",
       "check_method": "http_rules",
-      "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+      "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
       "parser_version": "1.1.4",
       "city": "台北市",
       "mode": "實體",
@@ -1390,32 +1302,32 @@
           "field": "date",
           "quote": "115年度；12月1日",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "time",
           "quote": "晚上6:30~8:30",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "eligibility",
           "quote": "戶籍、居住、就業、就學在〔臺北市〕的精神病病友或其家屬 / 照顧者 。；限家屬.照顧者參加",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         },
         {
           "field": "venue",
           "quote": "台北市和平東路二段307號3樓。(近科技大樓捷運站、國立台北教育大學對面)",
           "url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308",
-          "checked_at": "2026-11-15T14:37:51+08:00",
-          "content_hash": "351f7a903512c8e6ad36282ddf8a82c697fdf021e8db8eec94a2f6d6037c035a",
+          "checked_at": "2026-11-16T14:14:24+08:00",
+          "content_hash": "8377e7fc5972ad36477090e57f613b5e83b8044210d66697cd4a615a5abe6563",
           "locator": "正文"
         }
       ],
@@ -1438,17 +1350,7 @@
       "contact": "02-2739-8516",
       "contact_verified": false,
       "summary": "為精神疾病家屬留下的每月交流空間，與有相似經驗的人分享日常。",
-      "poster_candidates": [
-        {
-          "url": "https://www.heartlife.org.tw/TW/Images/Layout/SocialNetwork/line.png",
-          "alt": "LINE",
-          "kind": "body_image",
-          "score": 3,
-          "in_content": true,
-          "title_match": false,
-          "source_url": "https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308"
-        }
-      ]
+      "poster_candidates": []
     },
     {
       "audience": "家屬／照顧者",
@@ -1546,7 +1448,7 @@
       "last_successful_fetch_at": null,
       "check_method": "manual_web",
       "source_published_at": "2026-01-12",
-      "freshness": "fresh",
+      "freshness": "stale",
       "notes": [
         "此筆依官方公開頁面核對整理，報名前請與單位確認。",
         "費用與名額請先向原單位確認。"
@@ -1583,7 +1485,8 @@
       ],
       "review_reasons": [
         "費用未註明",
-        "報名名額與狀態未確認"
+        "報名名額與狀態未確認",
+        "來源需要重新查核"
       ],
       "poster_url": "https://www.tpmra.org.tw/sites/default/files/jia_zhi_huo_dong_nei_ye_tu_.jpg",
       "poster_source_url": "https://www.tpmra.org.tw/node/502",
@@ -1681,7 +1584,7 @@
       "last_successful_fetch_at": null,
       "check_method": "manual_web",
       "source_published_at": null,
-      "freshness": "fresh",
+      "freshness": "stale",
       "notes": [
         "此筆依官方公開頁面核對整理，報名前請與單位確認。",
         "費用與名額請先向原單位確認。"
@@ -1718,7 +1621,8 @@
       ],
       "review_reasons": [
         "費用未註明",
-        "報名名額與狀態未確認"
+        "報名名額與狀態未確認",
+        "來源需要重新查核"
       ],
       "poster_url": "https://www.ntcami.org.tw/sites/default/files/styles/event-node/public/civicrm/custom/%E5%AE%B6%E7%85%A7_115%E5%B9%B4%E5%AE%B6%E5%B1%AC%E8%81%9A%E6%9C%83_P79u4277.jpg?itok=iyskMVAL",
       "poster_source_url": "https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1",
@@ -1792,17 +1696,19 @@
       "id": "S01",
       "name": "臺北市社區心理衛生中心",
       "method": "HTTP / 規則解析",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
-      "status": "success",
-      "errors": [],
-      "parsed_pages": 2,
+      "attempted_at": "2026-11-16T14:14:24+08:00",
+      "status": "partial",
+      "errors": [
+        "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB: template_or_audience_not_recognized"
+      ],
+      "parsed_pages": 1,
       "discovery": "first_list_page_only"
     },
     {
       "id": "S05",
       "name": "台北市心生活協會",
       "method": "HTTP / 規則解析",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -1812,7 +1718,7 @@
       "id": "D-NTCAMI",
       "name": "新北市康復之友協會（活動列表）",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -1822,7 +1728,7 @@
       "id": "D-TPMRA",
       "name": "台北市康復之友協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -1832,17 +1738,19 @@
       "id": "D-MRATC",
       "name": "台中市康復之友協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
-      "status": "success",
-      "errors": [],
-      "parsed_pages": 1,
+      "attempted_at": "2026-11-16T14:14:24+08:00",
+      "status": "failed",
+      "errors": [
+        "list: HTTP Error 522: <none>"
+      ],
+      "parsed_pages": 0,
       "discovery": "list_page"
     },
     {
       "id": "D-TYPR",
       "name": "桃園市康復之友協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -1852,7 +1760,7 @@
       "id": "D-HEALTHYMIND",
       "name": "新竹市精神健康協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -1862,7 +1770,7 @@
       "id": "D-KSDREAM",
       "name": "高雄市築夢關懷協會",
       "method": "列表頁探索（只產生待審候選）",
-      "attempted_at": "2026-11-15T14:37:51+08:00",
+      "attempted_at": "2026-11-16T14:14:24+08:00",
       "status": "success",
       "errors": [],
       "parsed_pages": 1,
@@ -2212,23 +2120,8 @@
       "status": "discovered_not_parsed"
     },
     {
-      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB",
-      "title": "115年11月15日-陪伴彼此，走過照顧日常",
-      "status": "discovered_not_parsed"
-    },
-    {
       "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476",
       "title": "115年11月22日-一起接住彼此",
-      "status": "discovered_not_parsed"
-    },
-    {
-      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=A56D701B4827E9DC",
-      "title": "115年11月16日【家有幸孕星★線上講座】「好孕駕到！」高齡孕產的身心調適與心理韌力",
-      "status": "discovered_not_parsed"
-    },
-    {
-      "url": "https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=77CEC53FB8D44D98",
-      "title": "115年11月22日【ADHD親職線上講座-從「做不到」到「我可以」：陪ADHD孩子長出自己的力量】開放報名!",
       "status": "discovered_not_parsed"
     },
     {
@@ -2314,176 +2207,14 @@
       "source_id": "D-TPMRA"
     },
     {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=39",
-      "title": "關於中市康",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=40",
-      "title": "理監事介紹",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=44",
-      "title": "協會本會服務",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=45",
-      "title": "向日葵工作隊",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=46",
-      "title": "沃克工坊（小作所）",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=73",
-      "title": "精神康復者及家庭支持服務中心",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=55",
-      "title": "成為協會會員",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=58",
-      "title": "求才公告",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=68&id=329",
-      "title": "🌈 【心光燦爛嘉年華｜攤開夢想・藝起發光】 🎉 2026/11/10 ✨ 每一份努力，都值得被看見；每一個夢想，都有發光的舞台！ 「心光燦爛嘉年華」熱鬧登場啦！🎊 邀請大家一起走進充滿歡笑與活力的嘉年華，欣賞精神康復者用心準備的精彩演出，感",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=68&id=328",
-      "title": "⚽ 再創佳績！台中康旗聯隊勇奪全國復康足球賽季軍🏆 2026/11/08",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=68&id=327",
-      "title": "感謝 善心人士 捐贈物資一批 2026/11/06",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=68&id=326",
-      "title": "🌈 【乘風飛翔，心島相映】邀請您投下愛的力量！ ✈️ 2026/11/03",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw//OnePage.aspx?mid=49&id=323&preview=Y",
-      "title": "同心同趣趣味競賽圓滿落幕｜115年臺中市精神康復者社區服務新興及創新方案 2026/10/18",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=47&id=53",
-      "title": "115年｜運動紓壓課程招生開課囉！ 2026/09/17",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=47&id=52",
-      "title": "115年｜🧵 拼布俱樂部即將開課囉！ 2026/09/04",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=47&id=50",
-      "title": "115年｜🎵音樂家俱樂部第三期招生囉！ 2026/08/10",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=49&id=325",
-      "title": "🌿 暫時放下照顧的忙碌，給自己一段喘息時光｜照顧者戶外喘息活動 2026/11/02 在日常生活中，照顧者經常將時間與心力投注在家人的照顧需求上，卻容易忽略自己的身心感受。然而，照顧別人的同時，也別忘了好好照顧自己。💚 10月31日，本協會",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=49&id=323",
-      "title": "同心同趣趣味競賽圓滿落幕｜115年臺中市精神康復者社區服務新興及創新方案 2026/10/18",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=49&id=315",
-      "title": "幸福烘焙坊｜香氣裡的小小幸福 2026/09/11",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=49&id=308",
-      "title": "康復天使盃才藝競賽圓滿完成｜115年臺中市精神康復者社區服務新興及創新方案 2026/08/22",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.mratc.org.tw/OnePage.aspx?mid=49&id=297",
-      "title": "技能培訓活動｜收納課程第二梯次活動回顧 2026/08/04",
-      "status": "discovered_not_parsed",
-      "source_id": "D-MRATC"
-    },
-    {
-      "url": "https://www.typr.org.tw/ap/active_list.aspx?bid=39",
-      "title": "活動花絮",
-      "status": "discovered_not_parsed",
-      "source_id": "D-TYPR"
-    },
-    {
       "url": "https://www.typr.org.tw/ap/news_view.aspx?bid=13&sn=814a041d-7805-4fd6-9944-e1cbbccbe700",
       "title": "115年「桃園市虎頭山三聖宮參訪健行 暨身心障礙者性平意識與身體界線宣導」活動 報名簡章<活動日期：115年 10月24日>",
       "status": "discovered_not_parsed",
       "source_id": "D-TYPR"
     },
     {
-      "url": "https://www.typr.org.tw/ap/active_view.aspx?bid=&sn=cd743b0a-cc74-4c86-83e9-13c787293dd2",
-      "title": "112年樂活活動集錦",
-      "status": "discovered_not_parsed",
-      "source_id": "D-TYPR"
-    },
-    {
-      "url": "https://www.typr.org.tw/ap/active_view.aspx?bid=&sn=df531564-df2b-46ac-adb9-befd67b0c28a",
-      "title": "111年第二季樂活活動集錦",
-      "status": "discovered_not_parsed",
-      "source_id": "D-TYPR"
-    },
-    {
-      "url": "https://www.typr.org.tw/ap/active_view.aspx?bid=&sn=3a276956-45f4-4113-9263-89c67ea1f812",
-      "title": "111年第一季樂活活動集錦",
-      "status": "discovered_not_parsed",
-      "source_id": "D-TYPR"
-    },
-    {
-      "url": "https://www.typr.org.tw/ap/active_view.aspx?bid=&sn=e3400415-fbfd-4c27-b1d0-2831894faf1f",
-      "title": "110年第三季活動集錦",
-      "status": "discovered_not_parsed",
-      "source_id": "D-TYPR"
-    },
-    {
       "url": "https://www.healthymind.org.tw/List.aspx?tid=6",
       "title": "最新活動",
-      "status": "discovered_not_parsed",
-      "source_id": "D-HEALTHYMIND"
-    },
-    {
-      "url": "https://www.healthymind.org.tw/List.aspx?tid=131",
-      "title": "活動花絮",
       "status": "discovered_not_parsed",
       "source_id": "D-HEALTHYMIND"
     },
@@ -2556,66 +2287,6 @@
     {
       "url": "https://www.ksdreammaking.org/115%e5%b9%b44%e6%9c%8811%e6%97%a5-6%e6%9c%8813%e6%97%a5-%e6%af%8f%e9%80%b1%e5%85%ad-%e3%80%8c-%e5%ae%b6%e5%b1%ac%e6%88%90%e9%95%b7%e6%94%af%e6%8c%81%e5%9c%98%e9%ab%94-%e3%80%8d%e9%96%8b%e5%a7%8b/",
       "title": "115年4月11日-6月13日 ( 每週六 )「 家屬成長支持團體 」開始報名囉！",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/114%e5%b9%b4-%e3%80%8c%e6%af%8d%e8%a6%aa%e7%af%80%e7%9a%84%e6%84%9f%e6%81%a9%e5%a5%89%e8%8c%b6%e3%80%8d%e6%b4%bb%e5%8b%95/",
-      "title": "114年-「母親節的感恩奉茶」活動",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/114%e5%b9%b48%e6%9c%882%e6%97%a510%e6%9c%884%e6%97%a5-%e6%af%8f%e9%80%b1%e5%85%ad-%e3%80%8c-%e5%ae%b6%e5%b1%ac%e6%88%90%e9%95%b7%e6%94%af%e6%8c%81%e5%9c%98%e9%ab%94-%e3%80%8d%e9%96%8b%e5%a7%8b/",
-      "title": "114年8月2日-10月4日 ( 每週六 )「 家屬成長支持團體 」開始報名囉！",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/114%e5%b9%b4%e5%ba%a6%e6%ad%a1%e6%a8%82%e8%bf%8e%e6%98%a5%e5%8d%a1%e6%8b%89ok%e7%b4%93%e5%a3%93%e6%b4%bb%e5%8b%95/",
-      "title": "114年度歡樂迎春卡拉OK紓壓活動",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/114%e5%b9%b44%e6%9c%8812%e6%97%a5-6%e6%9c%8814%e6%97%a5-%e6%af%8f%e9%80%b1%e5%85%ad-%e3%80%8c-%e5%ae%b6%e5%b1%ac%e6%88%90%e9%95%b7%e6%94%af%e6%8c%81%e5%9c%98%e9%ab%94-%e3%80%8d%e9%96%8b%e5%a7%8b/",
-      "title": "114年4月12日-6月14日 ( 每週六 )「 家屬成長支持團體 」開始報名囉！",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/113%e5%b9%b4%e5%ba%a6%e3%80%8c%e5%ae%b6%e5%b1%ac%e6%88%90%e9%95%b7%e6%94%af%e6%8c%81%e5%9c%98%e9%ab%94-%e3%80%8d%e8%aa%b2%e7%a8%8b-%e7%ac%ac%e4%ba%8c%e6%a2%af%e6%ac%a1/",
-      "title": "113年度「家屬成長支持團體 」課程-第二梯次",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/113%e5%b9%b48%e6%9c%8822%e6%97%a5%e8%a8%98%e5%b8%b3%e5%a3%ab%e5%85%ac%e6%9c%83%e6%8d%90%e8%b4%88%e6%b4%bb%e5%8b%95/",
-      "title": "113年8月22日記帳士公會捐贈活動",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/113%e5%b9%b48%e6%9c%8810%e6%97%a5-10%e6%9c%8805%e6%97%a5-%e6%af%8f%e9%80%b1%e5%85%ad-%e3%80%8c-%e5%ae%b6%e5%b1%ac%e6%88%90%e9%95%b7%e6%94%af%e6%8c%81%e5%9c%98%e9%ab%94-%e3%80%8d-%e7%ac%ac%e4%ba%8c/",
-      "title": "113年8月10日-10月05日 ( 每週六 )「 家屬成長支持團體 」課程-第二梯次開始報名囉！",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/113%e5%b9%b4%e5%ba%a6%e6%af%8d%e8%a6%aa%e7%af%80%e6%84%9f%e6%81%a9%e5%a5%89%e8%8c%b6%e6%9a%a8%e5%8d%a1%e6%8b%89ok%e6%a8%82%e6%b4%bb%e6%b4%bb%e5%8b%95/",
-      "title": "113年度母親節感恩奉茶暨卡拉OK樂活活動",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/%ef%bc%91%ef%bc%913%e5%b9%b4%ef%bc%93%e6%9c%88%ef%bc%91%ef%bc%96%e6%97%a5%e7%af%89%e5%a4%a2%e6%98%a5%e5%ad%a3%e6%ad%a1%e6%a8%82%e8%a6%aa%e5%ad%90%e4%b8%80%e6%97%a5%e9%81%8a%e6%b4%bb%e5%8b%95%e8%8a%b1/",
-      "title": "１１3年３月１６日築夢春季歡樂親子一日遊活動花絮!!",
-      "status": "discovered_not_parsed",
-      "source_id": "D-KSDREAM"
-    },
-    {
-      "url": "https://www.ksdreammaking.org/113%e5%b9%b42%e6%9c%8824%e6%97%a5%e5%ae%b6%e5%b1%ac%e5%ba%a7%e8%ab%87%e6%9c%83%e5%9c%93%e6%bb%bf%e5%ae%8c%e6%88%90/",
-      "title": "113年2月24日家屬座談會圓滿完成",
       "status": "discovered_not_parsed",
       "source_id": "D-KSDREAM"
     }
