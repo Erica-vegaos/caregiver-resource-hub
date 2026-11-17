@@ -129,6 +129,20 @@ class BuildIntegrationTests(unittest.TestCase):
             self.assertEqual(fallback['event_status'], 'scheduled')
             self.assertEqual(payload['sources'][0]['status'], 'failed')
 
+    def test_taken_down_page_of_ended_event_is_not_a_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); e = self.fixture(root)
+            ended = dict(e, event_status='ended')
+            (root/'data/events.json').write_text(json.dumps({'events': [ended], 'sources': []}))
+            source = {'id':'S01','name':'測試已設定來源','list_url':None,'seeds':[e['source_url']]}
+            with patch.object(build, 'ROOT', root), patch.object(build, 'SOURCES', [source]), \
+                 patch.object(build, 'fetch', side_effect=ValueError('template_or_audience_not_recognized')):
+                build.build(refresh=True, now=NOW)
+            state = json.loads((root/'data/events.json').read_text())['sources'][0]
+            self.assertEqual(state['status'], 'success')
+            self.assertEqual(state['errors'], [])
+            self.assertEqual(state['retired_seeds'], [e['source_url']])
+
     def test_invalid_curated_override_cannot_leak_snapshot_old_value(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp); e=self.fixture(root)
