@@ -510,9 +510,13 @@ def build(refresh=False, now=None, fixture_dir=None):
                         validate_event(row)
                     current += rows; state['parsed_pages'] += 1
                 except Exception as exc:
-                    state['errors'].append(url + ': ' + str(exc))
                     fallback = [copy.deepcopy(e) for e in old['events']
                                 if e.get('source_url') == url and e.get('check_method') == 'http_rules']
+                    # Organizers take pages down after the event; that is not a crawler failure.
+                    if fallback and all(e.get('event_status') == 'ended' for e in fallback):
+                        state.setdefault('retired_seeds', []).append(url)
+                    else:
+                        state['errors'].append(url + ': ' + str(exc))
                     for e in fallback:
                         e['freshness'] = 'unavailable'
                     current += fallback
