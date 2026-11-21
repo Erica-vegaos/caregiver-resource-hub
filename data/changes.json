@@ -1,12 +1,1 @@
-[
-  {
-    "id": "N01:sport53:2026-11-17",
-    "type": "changed",
-    "fields": {
-      "event_status": {
-        "before": "scheduled",
-        "after": "ended"
-      }
-    }
-  }
-]
+[]

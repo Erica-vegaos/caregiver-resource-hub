@@ -1,19 +1,21 @@
 # v1.1.4 人工待確認報告
 
-2026-11-17T12:35:20+08:00
+2026-11-21T11:16:14+08:00
 
 活動僅供查詢；名額未知不代表開放報名。每日自動刷新，合併 PR 後才上線。
 
-- 家屬座談：攜手相伴・愛不打烊（線上） 2026-11-22：費用未註明；原文僅確認活動日期，時間請洽原單位。來源：https://forms.gle/dGZ6ifie8ThvSLs36
+- 家連家精神健康教育・線上 8 堂課 2026-11-21：來源需要重新查核。來源：https://forms.gle/HawJP9fAmBF81EfHA
+- 家屬座談：攜手相伴・愛不打烊（線上） 2026-11-22：費用未註明；來源需要重新查核；原文僅確認活動日期，時間請洽原單位。來源：https://forms.gle/dGZ6ifie8ThvSLs36
 - 心光燦爛嘉年華・精神康復共融活動 2026-11-22：費用未註明；報名名額與狀態未確認；來源需要重新查核。來源：https://www.mratc.org.tw/OnePage.aspx?id=329&mid=68
 - 一起接住彼此 2026-11-22：費用未註明；報名名額與狀態未確認。來源：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=C6AD3B6D5810F476
 - 運動紓壓課程・系列場次 2026-11-24：來源需要重新查核。來源：https://www.mratc.org.tw/Activity_1.aspx?mid=47&id=53
-- 家屬同儕駐點《善意溝通》學習交流 2026-11-27：費用未註明。來源：https://www.ntcami.org.tw/civicrm/event/info?reset=1&id=175
+- 家屬同儕駐點《善意溝通》學習交流 2026-11-27：費用未註明；來源需要重新查核。來源：https://www.ntcami.org.tw/civicrm/event/info?reset=1&id=175
 - 心家庭暖房・家屬每月聚會 2026-12-01：費用未註明；報名名額與狀態未確認。來源：https://www.heartlife.org.tw/TW/NewsGallery/ugC_NewsGallery_Detail.asp?hidNewsGalleryCatID=3&hidNewsGalleryID=308
+- 標籤之外，看見彼此的模樣｜專線週末分享會 2026-12-06：來源需要重新查核。來源：https://forms.gle/XPwmb7jTXbonb8ev7
 - 精神障礙家庭照顧者支持團體 2026-12-09：費用未註明；報名名額與狀態未確認；來源需要重新查核。來源：https://www.tpmra.org.tw/node/502
-- 家屬同儕駐點《善意溝通》學習交流 2026-12-11：費用未註明。來源：https://www.ntcami.org.tw/civicrm/event/info?reset=1&id=175
+- 家屬同儕駐點《善意溝通》學習交流 2026-12-11：費用未註明；來源需要重新查核。來源：https://www.ntcami.org.tw/civicrm/event/info?reset=1&id=175
 - 家屬交流聚會・重要關係人 2026-12-12：費用未註明；報名名額與狀態未確認；來源需要重新查核。來源：https://www.ntcami.org.tw/civicrm/event/info?id=161&reset=1
-- 未來規劃：信託安排實作準備 2026-12-15：費用未註明。來源：https://www.ntcami.org.tw/civicrm/event/register?reset=1&id=196
+- 未來規劃：信託安排實作準備 2026-12-15：費用未註明；來源需要重新查核。來源：https://www.ntcami.org.tw/civicrm/event/register?reset=1&id=196
 
 ## 隔離候選（不顯示為可參加活動）
 
@@ -22,19 +24,8 @@
 
 - 心理師來解惑：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=4C7BEEC7857C3300（資格與活動類型尚未判定；不自動發布）
 - 115年9月6日、10月4日、11月1日、12月6日【親子共讀工作坊：用繪本和孩子談情緒】即日起報名開始：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=FDB09355A2F9129D（資格與活動類型尚未判定；不自動發布）
-- 115年11月14日、11月28日(六)【元氣職場-線上及實體講座】用雙手創造溫暖，讓心慢下來：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=D2A425452817041B（資格與活動類型尚未判定；不自動發布）
-- 周產期心理健康促進活動-家有幸孕星講座&專業人員教育訓練：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=D8FDA6BE2D717F72（資格與活動類型尚未判定；不自動發布）
 - 115年12月16日【周產期心理健康促進-專業人員線上講座】從創傷知情理解生產創傷：https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=AEA7AC285E70157B（資格與活動類型尚未判定；不自動發布）
 - 台北市康復之友協會 40週年系列活動：https://www.tpmra.org.tw/node/429（資格與活動類型尚未判定；不自動發布）
-- 🌈 【心光燦爛嘉年華｜攤開夢想・藝起發光】 🎉 2026/11/10 ✨ 每一份努力，都值得被看見；每一個夢想，都有發光的舞台！ 「心光燦爛嘉年華」熱鬧登場啦！🎊 邀請大家一起走進充滿歡笑與活力的嘉年華，欣賞精神康復者用心準備的精彩演出，感：https://www.mratc.org.tw/OnePage.aspx?mid=68&id=329（資格與活動類型尚未判定；不自動發布）
-- ⚽ 再創佳績！台中康旗聯隊勇奪全國復康足球賽季軍🏆 2026/11/08：https://www.mratc.org.tw/OnePage.aspx?mid=68&id=328（資格與活動類型尚未判定；不自動發布）
-- 感謝 善心人士 捐贈物資一批 2026/11/06：https://www.mratc.org.tw/OnePage.aspx?mid=68&id=327（資格與活動類型尚未判定；不自動發布）
-- 🌈 【乘風飛翔，心島相映】邀請您投下愛的力量！ ✈️ 2026/11/03：https://www.mratc.org.tw/OnePage.aspx?mid=68&id=326（資格與活動類型尚未判定；不自動發布）
-- 115年｜運動紓壓課程招生開課囉！ 2026/09/17：https://www.mratc.org.tw/OnePage.aspx?mid=47&id=53（資格與活動類型尚未判定；不自動發布）
-- 115年｜🧵 拼布俱樂部即將開課囉！ 2026/09/04：https://www.mratc.org.tw/OnePage.aspx?mid=47&id=52（資格與活動類型尚未判定；不自動發布）
-- 115年｜🎵音樂家俱樂部第三期招生囉！ 2026/08/10：https://www.mratc.org.tw/OnePage.aspx?mid=47&id=50（資格與活動類型尚未判定；不自動發布）
-- 🌿 暫時放下照顧的忙碌，給自己一段喘息時光｜照顧者戶外喘息活動 2026/11/02 在日常生活中，照顧者經常將時間與心力投注在家人的照顧需求上，卻容易忽略自己的身心感受。然而，照顧別人的同時，也別忘了好好照顧自己。💚 10月31日，本協會：https://www.mratc.org.tw/OnePage.aspx?mid=49&id=325（資格與活動類型尚未判定；不自動發布）
-- 幸福烘焙坊｜香氣裡的小小幸福 2026/09/11：https://www.mratc.org.tw/OnePage.aspx?mid=49&id=315（資格與活動類型尚未判定；不自動發布）
 - 115年「桃園市虎頭山三聖宮參訪健行 暨身心障礙者性平意識與身體界線宣導」活動 報名簡章<活動日期：115年 10月24日>：https://www.typr.org.tw/ap/news_view.aspx?bid=13&sn=814a041d-7805-4fd6-9944-e1cbbccbe700（資格與活動類型尚未判定；不自動發布）
 - 最新活動：https://www.healthymind.org.tw/List.aspx?tid=6（資格與活動類型尚未判定；不自動發布）
 - 家庭照顧者支持服務據點：https://www.healthymind.org.tw/List.aspx?tid=152（資格與活動類型尚未判定；不自動發布）
@@ -64,11 +55,11 @@
 
 ## 來源狀況
 
-- 臺北市社區心理衛生中心：partial；https://mental-health.gov.taipei/Active_Content.aspx?n=6CCBECECB36BFE4E&ss=54D200EE367BA9FB: template_or_audience_not_recognized
+- 臺北市社區心理衛生中心：success；
 - 台北市心生活協會：success；
 - 新北市康復之友協會（活動列表）：failed；list: anti_bot_redirect
 - 台北市康復之友協會：success；
-- 台中市康復之友協會：success；
+- 台中市康復之友協會：failed；list: HTTP Error 522: <none>
 - 桃園市康復之友協會：success；
 - 新竹市精神健康協會：success；
 - 高雄市築夢關懷協會：success；
